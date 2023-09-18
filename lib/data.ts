@@ -89,7 +89,6 @@ export const skillsData = [
   "Portfolio Generator",
   "Friend ' Radio",
   "Reminder",
-  "QR Tools",
   "Unit Convertor",
   "Compass Level",
   "Step Counter",
@@ -104,7 +103,6 @@ export const skillsData = [
   "WhiteBoard",
   "Screen Recorder",
   "AI Summarizer",
-  "Password Generator",
   "AI Exersize",
   "Near You Map",
   "Filtering",
@@ -120,4 +118,6 @@ export const skillsData = [
   "Text Extracter",
   "Watermark Remover",
   "Wallpapers",
+  "Timer",
+  "Stopwatch",
 ] as const;
