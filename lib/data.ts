@@ -34,7 +34,7 @@ export const experiencesData = [
   },
   {
     title: "Aquin App",
-    location: "Comming Soon",
+    location: "Coming Soon",
     description:
       "Aquin's Application & Web App will be a fullstack app which will inculde of all of Aquin Creations.",
     icon: React.createElement(CgWorkAlt),
@@ -42,7 +42,7 @@ export const experiencesData = [
   },
   {
     title: "Future Releases",
-    location: "Comming Soon",
+    location: "Coming Soon",
     description:
       "Huge Releases on Aquin [ERROR: LESS INFO]",
     icon: React.createElement(CgWorkAlt),
@@ -52,23 +52,23 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Comming Soon",
+    title: "Coming Soon",
     description:
-      "This Module is in development and it's comming soon!",
+      "This Module is in development and it's coming soon!",
     tags: ["Module", "Web based", "Latest", "in-development", "2023"],
     imageUrl: Pic1,
   },
   {
-    title: "Comming Soon",
+    title: "Coming Soon",
     description:
-      "This Module is in development and it's comming soon!",
+      "This Module is in development and it's coming soon!",
     tags: ["Module", "Web based", "in-development", "2023"],
     imageUrl: Pic2,
   },
   {
-    title: "Comming Soon",
+    title: "Coming Soon",
     description:
-      "This Module is in development and it's comming soon!",
+      "This Module is in development and it's coming soon!",
     tags: ["Module", "Web based", "in-development", "2023"],
     imageUrl: Pic3,
   },
@@ -77,6 +77,7 @@ export const projectsData = [
 export const skillsData = [
   "Code Translator",
   "AI Songer",
+  "Statistics Search Engine",
   "AI Painter",
   "Aquin Video Conference",
   "Code Editor",
@@ -94,7 +95,6 @@ export const skillsData = [
   "Step Counter",
   "Text to Speech",
   "Speech to Text",
-  "Currency Convertor",
   "AI Tutorial Generator",
   "AI Meal Planner",
   "Emergency Helper",
@@ -118,6 +118,4 @@ export const skillsData = [
   "Text Extracter",
   "Watermark Remover",
   "Wallpapers",
-  "Timer",
-  "Stopwatch",
 ] as const;
