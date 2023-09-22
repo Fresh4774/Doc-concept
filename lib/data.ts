@@ -75,11 +75,10 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "Code Translator",
   "AI Songer",
   "Statistics Search Engine",
-  "AI Painter",
-  "Aquin Video Conference",
+  "Merchez",
+  "Video Conference",
   "Code Editor",
   "Todo-List",
   "AI Image Generator",
@@ -90,7 +89,7 @@ export const skillsData = [
   "Portfolio Generator",
   "Friend ' Radio",
   "Reminder",
-  "Compass Level",
+  "Compass and Level",
   "Step Counter",
   "Speech to Text",
   "AI Tutorial Generator",
@@ -103,9 +102,8 @@ export const skillsData = [
   "AI Summarizer",
   "AI Exersize",
   "Near You Map",
-  "Filtering",
+  "Filters",
   "Resume Generator",
-  "Medicine Reminder",
   "Ascii Convertor",
   "AI Quizes",
   "File Convertor",
@@ -117,4 +115,5 @@ export const skillsData = [
   "Watermark Remover",
   "Wallpapers",
   "Video Game Launcher",
+  "AI Voice",
 ] as const;
