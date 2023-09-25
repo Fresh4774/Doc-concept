@@ -4,9 +4,9 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { BsArrowRight, BsTwitter } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare, FaYoutube } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import Logo from '../app/AquinLogo.png'

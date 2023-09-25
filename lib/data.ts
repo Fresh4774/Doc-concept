@@ -2,7 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import Pic1 from "@/public/Aquin.png";
 import Pic2 from "@/public/Aquin.png";
-import Pic3 from "@/public/Aquin.png";
 
 export const links = [
   {
@@ -25,8 +24,8 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Experimental Modules",
-    location: "Current",
+    title: "Aquin Documentation",
+    location: "Working",
     description:
       "Aquin's Experimental Modules are diffrent web apps based on modules which are in development to users can try and test our progress.",
     icon: React.createElement(CgWorkAlt),
@@ -52,68 +51,67 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Coming Soon",
+    title: "Aquin - Web App",
     description:
-      "This Module is in development and it's coming soon!",
-    tags: ["Module", "Web based", "Latest", "in-development", "2023"],
+      "Aquin's Web Application, works on all browser and devices. Download it as a application by following the web app install tutorial.",
+    tags: ["Aquin - Web App", "Web App", "Working", "in-development", "2023"],
     imageUrl: Pic1,
   },
   {
-    title: "Coming Soon",
+    title: "Aquin - Application",
     description:
-      "This Module is in development and it's coming soon!",
-    tags: ["Module", "Web based", "in-development", "2023"],
+      "Aquin's Application, coming to play store. Coming Soon!",
+    tags: ["Aquin - Application", "Application", "in-development", "Play Store", "Android", "Coming Soon!"],
     imageUrl: Pic2,
-  },
-  {
-    title: "Coming Soon",
-    description:
-      "This Module is in development and it's coming soon!",
-    tags: ["Module", "Web based", "in-development", "2023"],
-    imageUrl: Pic3,
   },
 ] as const;
 
 export const skillsData = [
-  "AI Songer",
-  "Statistics Search Engine",
-  "Merchez",
-  "Video Conference",
-  "Code Editor",
-  "Todo-List",
-  "AI Image Generator",
-  "AI Grammer Fixer",
-  "Language Translator",
-  "Audio Manager",
-  "File Manager",
-  "Portfolio Generator",
-  "Friend ' Radio",
-  "Reminder",
-  "Compass and Level",
-  "Step Counter",
-  "Speech to Text",
-  "AI Tutorial Generator",
-  "AI Meal Planner",
-  "Emergency Helper",
-  "Notes",
-  "Recipe Generator",
-  "WhiteBoard",
-  "Screen Recorder",
-  "AI Summarizer",
-  "AI Exersize",
-  "Near You Map",
-  "Filters",
-  "Resume Generator",
-  "Ascii Convertor",
-  "AI Quizes",
-  "File Convertor",
-  "PDF Convertor",
-  "File Compressor",
-  "Medical Infor",
-  "Presentation Generator",
-  "Text Extracter",
-  "Watermark Remover",
-  "Wallpapers",
-  "Video Game Launcher",
-  "AI Voice",
+  "Voice", // AI song application
+  "Statistics Search Engine", // Statistics Search Engine
+  "Merchez", //Merch tester
+  "Vids", // Video conference
+  "Code Editor", // Code editor
+  "Todo-List", // todo-list
+  "ImageGen", // AI Image generator
+  "GrammerFixez", // AI grammer fixer
+  "Language Translator", // language translator
+  "File Manager", // files manager
+  "Portfolio Generator", // portfolio generator
+  "Reminder", // reminder
+  "Compass and Level", // compass and sea level
+  "Step Counter", // step counter
+  "Speech to Text", // speech to text
+  "AquinTutorials", // AI tutorial generator
+  "Fooder", // AI meal planner
+  "Emergency Helper", // emergency helper
+  "Notes", // notes
+  "AquinRecipes", // recipe generator
+  "WhiteBoard", // whiteboard
+  "Screen Recorder", // screen recorder
+  "Summarizez", // AI summarizer
+  "Exersizemz", // AI excersize app
+  "Near You Map", //near you finder map app
+  "Filters", // photo filters
+  "Resume Generator", // cv/resume generator
+  "Ascii Convertor", // image to ascii convertor
+  "Quizez", // AI quizes
+  "File Convertor", // File Convertor
+  "PDF Convertor", // PDF convertor
+  "File Compressor", // File compressor
+  "MedInfor", // Medical information app
+  "PresentationGen", // AI presentation generator
+  "Text Extracter", // text extracter
+  "Watermark Remover", // watermark remover
+  "AquinWallpapers", // wallpapers app
+  "AquinGames", // video game launcher
+  "Speak", // AI voice app
+  "Calculator", // calculator app
+  "QR Tools", // QR generator and QR scanner
+  "Password Generator", // password generator app
+  "Timer", // timer app
+  "Stopwatch", // stopwatch app
+  "Currency Convertor", // Currency convertor app
+  "Unit Convertor", // unit convertor app
+  "Text to Speech", // text to speech
 ] as const;
