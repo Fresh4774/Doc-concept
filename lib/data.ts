@@ -78,7 +78,6 @@ export const skillsData = [
   "Language Translator", // language translator
   "File Manager", // files manager
   "Portfolio Generator", // portfolio generator
-  "Reminder", // reminder
   "Compass and Level", // compass and sea level
   "Step Counter", // step counter
   "Speech to Text", // speech to text
@@ -114,4 +113,6 @@ export const skillsData = [
   "Currency Convertor", // Currency convertor app
   "Unit Convertor", // unit convertor app
   "Text to Speech", // text to speech
+  "Speak", // AI Voice assistant
+  "DocAI", // document helper AI module
 ] as const;
