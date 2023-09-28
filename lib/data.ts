@@ -1,7 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import Pic1 from "@/public/Aquin.png";
-import Pic2 from "@/public/Aquin.png";
 
 export const links = [
   {
@@ -24,7 +23,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Aquin Documentation",
+    title: "Aquin - Documentation",
     location: "Working",
     description:
       "Aquin's Experimental Modules are diffrent web apps based on modules which are in development to users can try and test our progress.",
@@ -32,18 +31,18 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Aquin App",
-    location: "Coming Soon",
+    title: "Aquin - App",
+    location: "Working",
     description:
-      "Aquin's Application & Web App will be a fullstack app which will inculde of all of Aquin Creations.",
+      "Aquin's Application, works on all browser and devices. Download it as a PWA application. Pre-Download it Now!",
     icon: React.createElement(CgWorkAlt),
-    date: "2024",
+    date: "2023",
   },
   {
     title: "Future Releases",
     location: "Coming Soon",
     description:
-      "Huge Releases on Aquin [ERROR: LESS INFO]",
+      "{ERROR: LESS INFO}",
     icon: React.createElement(CgWorkAlt),
     date: "2025",
   },
@@ -51,18 +50,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Aquin - Web App",
+    title: "Aquin",
     description:
-      "Aquin's Web Application, works on all browser and devices. Download it as a application by following the web app install tutorial.",
-    tags: ["Aquin - Web App", "Web App", "Working", "in-development", "2023"],
+      "Aquin's Application is here, works on all browser and devices. Download it as a PWA application. Pre-Download it Now!",
+    tags: ["Pre-Download", "PWA App", "Working", "In-Development", "Deployed"],
     imageUrl: Pic1,
-  },
-  {
-    title: "Aquin - Application",
-    description:
-      "Aquin's Application, coming to play store. Coming Soon!",
-    tags: ["Aquin - Application", "Application", "in-development", "Play Store", "Android", "Coming Soon!"],
-    imageUrl: Pic2,
   },
 ] as const;
 
@@ -73,7 +65,7 @@ export const skillsData = [
   "Vids", // Video conference
   "Code Editor", // Code editor
   "Todo-List", // todo-list
-  "ImageGen", // AI Image generator
+  "Imagen", // AI Image generator
   "GrammerFixez", // AI grammer fixer
   "Language Translator", // language translator
   "File Manager", // files manager

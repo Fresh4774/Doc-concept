@@ -38,7 +38,7 @@ export default function Intro() {
               height="200"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-30 w-30 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
         </div>
@@ -49,11 +49,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hey! </span> This is <span className="font-bold"> Aquin,</span> an{" "}
+        <span className="font-bold">Hey! </span> Say Hi to <span className="font-bold"> Aquin,</span> an{" "}
         <span className="font-bold">Everything App.</span> Which can{" "}
         <span className="font-bold">Break</span> your <span className="font-bold">Expectations & Imagination.</span> Whatever you need
          <span className="italic">, "We Gotchu!". </span>
-        <span className="underline">Try Now</span>.
+        <span className="underline"><a href="https://aquin.netlify.app/" target="_blank">Try Now</a></span>.
       </motion.h1>
 
       <motion.div
@@ -65,23 +65,33 @@ export default function Intro() {
         }}
       >
         <Link
-          href="#projects"
+          href="https://aquin.netlify.app/"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Modules");
             setTimeOfLastClick(Date.now());
           }}
+          target="_blank"
         >
-          Try us{" "}
+          Try Now{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="#home"
+          href="https://aquin.netlify.app/"
+          target="_blank"
         >
           Download{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+        </a>
+
+        <a
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          href="https://support.google.com/chrome/answer/9658361?hl=en&co=GENIE.Platform%3DAndroid"
+          target="_blank"
+        >
+          How?{" "}
         </a>
 
         <a

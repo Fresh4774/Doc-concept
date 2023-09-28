@@ -25,7 +25,7 @@ export default function About() {
         <span className="italic">"We Gotchu!" </span> is all we say.
          Making our Users feeling <span className="underline">Productive</span> is our aim.{" "}
         <span className="font-medium">
-          Aquin is currently a Web Application, We are working on the android application! 
+          Aquin is a PWA Application. 
         </span>
         {" "}We try our best to make the use of technology more ease and productive for our users.{" "}
         <span className="font-medium">More is Coming Soon!</span>
@@ -33,10 +33,11 @@ export default function About() {
 
       <p>
         Remember{" "}
-        <span className="italic">We Always "Gotchu!"</span>, Currently we have the full application on web, which can be downlaoded on devices
-        by following the web app install steps. Our android application is in development, we will be working on {" "}
-        <span className="font-medium">new Modules, 
-        Web App, Android Application.</span>
+        <span className="italic">We Always "Gotchu!"</span>, You can downlaod Aquin on Androids, IOS, MAC, Windows, Linux or You
+        can just use it through the browser as well!
+        we will be working on {" "}
+        <span className="font-medium">New Ideas, 
+        Daily, So Pre-Download Aquin Now!</span>
       </p>
     </motion.section>
   );
