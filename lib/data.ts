@@ -97,11 +97,8 @@ export const skillsData = [
   "AquinWallpapers", // wallpapers app
   "AquinGames", // video game launcher
   "Speak", // AI voice app
-  "Calculator", // calculator app
   "QR Tools", // QR generator and QR scanner
   "Password Generator", // password generator app
-  "Timer", // timer app
-  "Stopwatch", // stopwatch app
   "Currency Convertor", // Currency convertor app
   "Unit Convertor", // unit convertor app
   "Text to Speech", // text to speech
