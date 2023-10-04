@@ -62,15 +62,12 @@ export const skillsData = [
   "Language Translator", // language translator
   "File Manager", // files manager
   "Portfolio Generator", // portfolio generator
-  "Compass and Level", // compass and sea level
-  "Step Counter", // step counter
   "AquinTutorials", // AI tutorial generator
   "Fooder", // AI meal planner
   "Emergency Helper", // emergency helper
   "Notes", // notes
   "AquinRecipes", // recipe generator
   "WhiteBoard", // whiteboard
-  "Screen Recorder", // screen recorder
   "Summarizez", // AI summarizer
   "Exersizemz", // AI excersize app
   "Near You Map", //near you finder map app
