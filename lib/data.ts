@@ -1,5 +1,3 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import Pic1 from "@/public/Aquin.png";
 
 export const links = [
@@ -18,25 +16,6 @@ export const links = [
   {
     name: "Soon",
     hash: "#skills",
-  },
-] as const;
-
-export const experiencesData = [
-  {
-    title: "Aquin - App",
-    location: "Working",
-    description:
-      "Aquin's Application, works on all browser and devices. Download it as a PWA application. Pre-Download it Now!",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023",
-  },
-  {
-    title: "Future Releases",
-    location: "Coming Soon",
-    description:
-      "{ERROR: LESS INFO}",
-    icon: React.createElement(CgWorkAlt),
-    date: "2025",
   },
 ] as const;
 
