@@ -23,14 +23,6 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Aquin - Documentation",
-    location: "Working",
-    description:
-      "Aquin's Experimental Modules are diffrent web apps based on modules which are in development to users can try and test our progress.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023",
-  },
-  {
     title: "Aquin - App",
     location: "Working",
     description:
@@ -53,7 +45,7 @@ export const projectsData = [
     title: "Aquin",
     description:
       "Aquin's Application is here, works on all browser and devices. Download it as a PWA application. Pre-Download it Now!",
-    tags: ["Pre-Download", "PWA App", "Working", "In-Development", "Deployed"],
+    tags: ["Download Now!", "PWA App", "Working", "In-Development", "Deployed"],
     imageUrl: Pic1,
   },
 ] as const;
@@ -72,7 +64,6 @@ export const skillsData = [
   "Portfolio Generator", // portfolio generator
   "Compass and Level", // compass and sea level
   "Step Counter", // step counter
-  "Speech to Text", // speech to text
   "AquinTutorials", // AI tutorial generator
   "Fooder", // AI meal planner
   "Emergency Helper", // emergency helper
@@ -98,10 +89,7 @@ export const skillsData = [
   "AquinGames", // video game launcher
   "Speak", // AI voice app
   "QR Tools", // QR generator and QR scanner
-  "Password Generator", // password generator app
-  "Currency Convertor", // Currency convertor app
   "Unit Convertor", // unit convertor app
-  "Text to Speech", // text to speech
   "Speak", // AI Voice assistant
   "DocAI", // document helper AI module
 ] as const;
