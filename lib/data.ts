@@ -38,8 +38,6 @@ export const skillsData = [
   "Todo-List", // todo-list
   "Imagen", // AI Image generator
   "GrammerFixez", // AI grammer fixer
-  "Language Translator", // language translator
-  "File Manager", // files manager
   "Portfolio Generator", // portfolio generator
   "AquinTutorials", // AI tutorial generator
   "Fooder", // AI meal planner
@@ -49,7 +47,6 @@ export const skillsData = [
   "WhiteBoard", // whiteboard
   "Summarizez", // AI summarizer
   "Exersizemz", // AI excersize app
-  "Near You Map", //near you finder map app
   "Filters", // photo filters
   "Resume Generator", // cv/resume generator
   "Ascii Convertor", // image to ascii convertor
@@ -64,8 +61,6 @@ export const skillsData = [
   "AquinWallpapers", // wallpapers app
   "AquinGames", // video game launcher
   "Speak", // AI voice app
-  "QR Tools", // QR generator and QR scanner
-  "Unit Convertor", // unit convertor app
   "Speak", // AI Voice assistant
   "DocAI", // document helper AI module
 ] as const;
