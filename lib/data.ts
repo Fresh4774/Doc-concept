@@ -59,6 +59,5 @@ export const skillsData = [
   "AquinWallpapers", // wallpapers app
   "AquinGames", // video game launcher
   "Speak", // AI voice app
-  "Speak", // AI Voice assistant
   "DocAI", // document helper AI module
 ] as const;
