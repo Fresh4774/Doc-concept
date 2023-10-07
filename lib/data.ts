@@ -34,7 +34,6 @@ export const skillsData = [
   "Statistics Search Engine", // Statistics Search Engine
   "Merchez", //Merch tester
   "Vids", // Video conference
-  "Code Editor", // Code editor
   "Todo-List", // todo-list
   "Imagen", // AI Image generator
   "GrammerFixez", // AI grammer fixer
@@ -47,9 +46,8 @@ export const skillsData = [
   "WhiteBoard", // whiteboard
   "Summarizez", // AI summarizer
   "Exersizemz", // AI excersize app
-  "Filters", // photo filters
+  "Filters", // image to ascii and image to emoji image
   "Resume Generator", // cv/resume generator
-  "Ascii Convertor", // image to ascii convertor
   "Quizez", // AI quizes
   "File Convertor", // File Convertor
   "PDF Convertor", // PDF convertor
