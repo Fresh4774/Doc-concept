@@ -43,7 +43,6 @@ export const skillsData = [
   "Emergency Helper", // emergency helper
   "Notes", // notes
   "AquinRecipes", // recipe generator
-  "WhiteBoard", // whiteboard
   "Summarizez", // AI summarizer
   "Exersizemz", // AI excersize app
   "Filters", // image to ascii and image to emoji image
