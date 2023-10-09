@@ -12,13 +12,13 @@ export default function Projects() {
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>The Application</SectionHeading>
-      <div>
+      <a href={"https://aquin.netlify.app/"} target="_blank">
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
             <Project {...project} />
           </React.Fragment>
         ))}
-      </div>
+      </a>
     </section>
   );
 }

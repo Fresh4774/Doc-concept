@@ -54,9 +54,9 @@ export const skillsData = [
   "MedInfor", // Medical information app
   "PresentationGen", // AI presentation generator
   "Text Extracter", // text extracter
-  "Watermark Remover", // watermark remover
   "AquinWallpapers", // wallpapers app
   "AquinGames", // video game launcher
   "Speak", // AI voice app
   "DocAI", // document helper AI module
 ] as const;
+

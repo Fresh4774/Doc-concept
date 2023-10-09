@@ -7,14 +7,6 @@ export default function Footer() {
         &copy; 2023 Aquin. All rights reserved.
       </small>
       <p className="text-xs">
-        <span className="font-semibold mr-2">Aquin's Team:
-        <br />
-         <a target="_blank" href="https://www.youtube.com/channel/UCtGK-E4iBj-fqLFEnw7fjog/videos">Friction</a>
-         <br />
-         <a target="_blank" href="https://github.com/pcannon09">Pcannon@Artist</a>
-         <br />
-         <a target="_blank" href="https://github.com/Sammmy22">Sambhav@Dev</a>
-         </span>
       </p>
     </footer>
   );
