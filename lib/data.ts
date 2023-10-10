@@ -34,14 +34,12 @@ export const skillsData = [
   "Statistics Search Engine", // Statistics Search Engine
   "Merchez", //Merch tester
   "Vids", // Video conference
-  "Todo-List", // todo-list
   "Imagen", // AI Image generator
   "GrammerFixez", // AI grammer fixer
   "Portfolio Generator", // portfolio generator
   "AquinTutorials", // AI tutorial generator
   "Fooder", // AI meal planner
   "Emergency Helper", // emergency helper
-  "Notes", // notes
   "AquinRecipes", // recipe generator
   "Summarizez", // AI summarizer
   "Exersizemz", // AI excersize app
