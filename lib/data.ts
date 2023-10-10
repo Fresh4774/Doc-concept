@@ -44,7 +44,6 @@ export const skillsData = [
   "Summarizez", // AI summarizer
   "Exersizemz", // AI excersize app
   "Filters", // image to ascii and image to emoji image
-  "Resume Generator", // cv/resume generator
   "Quizez", // AI quizes
   "File Convertor", // File Convertor
   "PDF Convertor", // PDF convertor

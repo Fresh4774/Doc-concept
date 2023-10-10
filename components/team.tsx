@@ -98,7 +98,7 @@ export default function Team() {
           </motion.a>
 
           <motion.a
-            className="bg-white text-[#000] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#fff] font-semibold"
+            className="bg-white text-[#B4AEEA] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#B4AEEA] font-semibold"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -109,6 +109,20 @@ export default function Team() {
             }}
           >
             Carahchii^Artist
+          </motion.a>
+
+          <motion.a
+            className="bg-white text-[#000] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#000] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://e-z.bio/determinated"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            Determinated^Developer
           </motion.a>
       </ul>
     </section>
