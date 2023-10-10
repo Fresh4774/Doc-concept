@@ -20,24 +20,24 @@ export default function About() {
       <SectionHeading>About Aquin</SectionHeading>
       <p className="mb-3">
        This is{" "}
-        <span className="font-medium">Aquin, An Everything App.</span> From a vast varity of Epic Ideas,{" "}
-        <span className="font-medium">We Create Everything.</span>{" "}
+        <span className="font-medium">Aquin, An Future App.</span> From a vast varity of Epic Ideas,{" "}
+        <span className="font-medium">We Create Future.</span>{" "}
         <span className="italic">"We Gotchu!" </span> is all we say.
          Making our Users feeling <span className="underline">Productive</span> is our aim.{" "}
         <span className="font-medium">
-          Aquin is a PWA Application. 
+          Aquin will be coming on Microsoft Store and Play Store Soon! 
         </span>
-        {" "}We try our best to make the use of technology more ease and productive for our users.{" "}
-        <span className="font-medium">More is Coming Soon!</span>
+        {" "}We try our best to make the use of Code to make your use of Tech more ease and productive.{" "}
+        <span className="font-medium">More is always Coming Soon!</span>
       </p>
 
       <p>
         Remember{" "}
-        <span className="italic">We Always "Gotchu!"</span>, You can downlaod Aquin on Androids, IOS, MAC, Windows, Linux or You
-        can just use it through the browser as well!
+        <span className="italic">We Always "Gotchu!"</span>, You can downlaod Aquin on Android, Windows and You
+        can use it on any browser!
         we will be working on {" "}
         <span className="font-medium">New Ideas, 
-        Daily, So Pre-Download Aquin Now!</span>
+        Daily, So Download Aquin Now!</span>
       </p>
     </motion.section>
   );

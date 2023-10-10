@@ -42,7 +42,7 @@ export default function Team() {
           </motion.a>
 
           <motion.a
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 font-semibold"
+            className="bg-white text-[#000] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#fff] font-semibold"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -56,7 +56,7 @@ export default function Team() {
           </motion.a>
 
           <motion.a
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 font-semibold"
+            className="bg-white text-[#07B7FA] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#07B7FA] font-semibold"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -70,7 +70,7 @@ export default function Team() {
           </motion.a>
 
           <motion.a
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 font-semibold"
+            className="bg-white text-[#FF0000] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#FF0000] font-semibold"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -84,7 +84,7 @@ export default function Team() {
           </motion.a>
 
           <motion.a
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 font-semibold"
+            className="bg-white text-[#000] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#fff] font-semibold"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -98,7 +98,7 @@ export default function Team() {
           </motion.a>
 
           <motion.a
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 font-semibold"
+            className="bg-white text-[#000] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#fff] font-semibold"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"

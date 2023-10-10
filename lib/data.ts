@@ -23,8 +23,8 @@ export const projectsData = [
   {
     title: "Aquin",
     description:
-      "Aquin's Application is here, works on all browser and devices. Download it as a PWA application. Pre-Download it Now!",
-    tags: ["Download Now!", "PWA App", "Working", "In-Development", "Deployed"],
+      "Aquin is here! works on all browser and Android, Windows. Download Now!",
+    tags: ["Working", "In-Development", "Deployed"],
     imageUrl: Pic1,
   },
 ] as const;
