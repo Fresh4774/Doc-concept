@@ -36,14 +36,12 @@ export const skillsData = [
   "Vids", // Video conference
   "Imagen", // AI Image generator
   "GrammerFixez", // AI grammer fixer
-  "Portfolio Generator", // portfolio generator
   "AquinTutorials", // AI tutorial generator
   "Fooder", // AI meal planner
   "Emergency Helper", // emergency helper
   "AquinRecipes", // recipe generator
   "Summarizez", // AI summarizer
   "Exersizemz", // AI excersize app
-  "Filters", // image to ascii and image to emoji image
   "Quizez", // AI quizes
   "File Convertor", // File Convertor
   "PDF Convertor", // PDF convertor

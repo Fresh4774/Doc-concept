@@ -84,7 +84,7 @@ export default function Team() {
           </motion.a>
 
           <motion.a
-            className="bg-white text-[#000] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#fff] font-semibold"
+            className="bg-white text-[#FFD155] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#FFD155] font-semibold"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
