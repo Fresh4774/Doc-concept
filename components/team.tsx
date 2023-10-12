@@ -124,6 +124,20 @@ export default function Team() {
           >
             Determinated^Developer
           </motion.a>
+
+          <motion.a
+            className="bg-white text-[#0c6bff] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#0c6bff] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://discord.com/vanityurl/dotcom/steakpants/flour/flower/index11.html"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            A(dumb)Person^Developer
+          </motion.a>
       </ul>
     </section>
   );

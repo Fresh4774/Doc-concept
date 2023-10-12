@@ -45,7 +45,6 @@ export const skillsData = [
   "Quizez", // AI quizes
   "File Convertor", // File Convertor
   "PDF Convertor", // PDF convertor
-  "File Compressor", // File compressor
   "MedInfor", // Medical information app
   "PresentationGen", // AI presentation generator
   "Text Extracter", // text extracter
