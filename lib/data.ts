@@ -33,7 +33,6 @@ export const skillsData = [
   "Voice", // AI song application
   "Statistics Search Engine", // Statistics Search Engine
   "Merchez", //Merch tester
-  "Vids", // Video conference
   "Imagen", // AI Image generator
   "GrammerFixez", // AI grammer fixer
   "AquinTutorials", // AI tutorial generator
@@ -47,7 +46,6 @@ export const skillsData = [
   "PDF Convertor", // PDF convertor
   "MedInfor", // Medical information app
   "PresentationGen", // AI presentation generator
-  "Text Extracter", // text extracter
   "AquinWallpapers", // wallpapers app
   "AquinGames", // video game launcher
   "Speak", // AI voice app
