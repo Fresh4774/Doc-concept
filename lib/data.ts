@@ -50,5 +50,6 @@ export const skillsData = [
   "AquinGames", // video game launcher
   "Speak", // AI voice app
   "DocAI", // document helper AI module
+  "XD", // Aquin all in one AI
 ] as const;
 

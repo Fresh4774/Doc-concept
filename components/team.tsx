@@ -38,7 +38,7 @@ export default function Team() {
               once: true,
             }}
           >
-            Friction
+            Friction^Creator
           </motion.a>
 
           <motion.a
@@ -136,7 +136,175 @@ export default function Team() {
               once: true,
             }}
           >
-            A(dumb)Person^Developer
+            A(dumb)Person^Designer
+          </motion.a>
+
+          <motion.a
+            className="bg-white text-[#FFD300] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#FFD300] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://adamwv.de/"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            Adam^Developer
+          </motion.a>
+
+          <motion.a
+            className="bg-white text-[#515096] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#515096] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://github.com/NotArsenic"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            Arsenic^Developer
+          </motion.a>
+
+          <motion.a
+            className="bg-white text-[#000] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#000] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://lakelimbo.github.io/"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            Lake^Developer
+          </motion.a>
+
+          <motion.a
+            className="bg-white text-[#00FFFF] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#00FFFF] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://github.com/kenny5144"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            Kenny^Developer
+          </motion.a>
+
+          <motion.a
+            className="bg-white text-[#D2E0FB] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#D2E0FB] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://shawonsaha.github.io/"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            Shawon^Developer
+          </motion.a>
+
+          <motion.a
+            className="bg-white text-[#3092BF] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#3092BF] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://discord.com/vanityurl/dotcom/steakpants/flour/flower/index11.html"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            Glen^Developer
+          </motion.a>
+
+          <motion.a
+            className="bg-white text-[#3A86FF] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#3A86FF] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://github.com/JacobHeldt"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            Jacob^Developer
+          </motion.a>
+
+          <motion.a
+            className="bg-white text-[#FF0000] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#FF0000] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://bananabananacs.github.io/Cool-Website/"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            Speedy^Developer
+          </motion.a>
+
+          <motion.a
+            className="bg-white text-[#b164ff] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#b164ff] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://www.youtube.com/@JonakT"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            Xingho^Designer
+          </motion.a>
+
+          <motion.a
+            className="bg-white text-[#00E5FF] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#00E5FF] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://discord.com/vanityurl/dotcom/steakpants/flour/flower/index11.html"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            Kiddu^Developer
+          </motion.a>
+
+          <motion.a
+            className="bg-white text-[#207ad4] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#207ad4] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://github.com/paras231"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            Paras^Developer
+          </motion.a>
+
+          <motion.a
+            className="bg-white text-[#434b4f] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#434b4f] font-semibold"
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            href={"https://1xriku.netlify.app/"}
+            target="_blank"
+            viewport={{
+              once: true,
+            }}
+          >
+            1xRiku^Artist
           </motion.a>
       </ul>
     </section>
