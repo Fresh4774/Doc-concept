@@ -4,12 +4,12 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsTwitter } from "react-icons/bs";
+import { BsArrowRight, BsDiscord, BsTwitter } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaYoutube } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import Logo from '../app/AquinLogo.png'
+import Logo from '../public/AquinLogo.png'
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -100,6 +100,14 @@ export default function Intro() {
           target="_blank"
         >
           <BsTwitter />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://discord.gg/DhX7fBpp3W"
+          target="_blank"
+        >
+          <BsDiscord />
         </a>
 
         <a

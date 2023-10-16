@@ -294,11 +294,11 @@ export default function Team() {
           </motion.a>
 
           <motion.a
-            className="bg-white text-[#434b4f] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#434b4f] font-semibold"
+            className="bg-white text-[#7393B3] borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-[#7393B3] font-semibold"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
-            href={"https://1xriku.netlify.app/"}
+            href={"https://linktr.ee/1xriku"}
             target="_blank"
             viewport={{
               once: true,
