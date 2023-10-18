@@ -32,7 +32,6 @@ export const projectsData = [
 export const skillsData = [
   "Voice", // AI song application
   "Statistics Search Engine", // Statistics Search Engine
-  "Merchez", //Merch tester
   "Imagen", // AI Image generator
   "GrammerFixez", // AI grammer fixer
   "AquinTutorials", // AI tutorial generator
@@ -46,7 +45,6 @@ export const skillsData = [
   "PDF Convertor", // PDF convertor
   "MedInfor", // Medical information app
   "PresentationGen", // AI presentation generator
-  "AquinWallpapers", // wallpapers app
   "Speak", // AI voice app
   "DocAI", // document helper AI module
   "XD", // Aquin all in one AI
