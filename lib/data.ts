@@ -31,7 +31,7 @@ export const projectsData = [
 
 export const skillsData = [
   "Voice", // AI song application
-  "Statistics Search Engine", // Statistics Search Engine
+  "Stats", // Statistics Search Engine
   "Imagen", // AI Image generator
   "GrammerFixez", // AI grammer fixer
   "AquinTutorials", // AI tutorial generator
@@ -48,5 +48,7 @@ export const skillsData = [
   "Speak", // AI voice app
   "DocAI", // document helper AI module
   "XD", // Aquin all in one AI
+  "XDD", // community bot dicord
+  "Colors", // Color patelete generator
 ] as const;
 

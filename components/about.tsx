@@ -33,7 +33,7 @@ export default function About() {
 
       <p>
         Remember{" "}
-        <span className="italic">We Always "Gotchu!"</span>, You can downlaod Aquin on Android, Windows and You
+        <span className="italic">We Always "Gotchu!"</span>, You can download Aquin on Android, Windows and You
         can use it on any browser!
         we will be working on {" "}
         <span className="font-medium">New Ideas, 
