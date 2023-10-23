@@ -27,6 +27,13 @@ export const projectsData = [
     tags: ["Working", "In-Development", "Deployed"],
     imageUrl: Pic1,
   },
+  {
+    title: "AquinXDD",
+    description:
+      "Aquin's XDD discord bot, with general to advanced commands to try, Join the community server now!",
+    tags: ["Working", "In-Development", "Deployed"],
+    imageUrl: Pic1,
+  },
 ] as const;
 
 export const skillsData = [
@@ -48,7 +55,6 @@ export const skillsData = [
   "Speak", // AI voice app
   "DocAI", // document helper AI module
   "XD", // Aquin all in one AI
-  "XDD", // community bot dicord
   "Colors", // Color patelete generator
 ] as const;
 
