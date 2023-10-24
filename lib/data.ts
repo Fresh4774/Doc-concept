@@ -38,22 +38,22 @@ export const projectsData = [
 
 export const skillsData = [
   "Voice", // AI song application
-  "Stats", // Statistics Search Engine
+  "Infinity", // Ultimate super computor search engine
+  "Statz", // Statistics Search Engine
   "Imagen", // AI Image generator
-  "GrammerFixez", // AI grammer fixer
+  "Gramer", // AI grammer fixer
   "AquinTutorials", // AI tutorial generator
   "Fooder", // AI meal planner
   "Emergency Helper", // emergency helper
   "AquinRecipes", // recipe generator
   "Summarizez", // AI summarizer
-  "Exersizemz", // AI excersize app
-  "Quizez", // AI quizes
+  "Exer", // AI excersize app
+  "Quez", // AI quizes
   "File Convertor", // File Convertor
-  "PDF Convertor", // PDF convertor
   "MedInfor", // Medical information app
   "PresentationGen", // AI presentation generator
   "Speak", // AI voice app
-  "DocAI", // document helper AI module
+  "Docs", // document helper AI module
   "XD", // Aquin all in one AI
   "Colors", // Color patelete generator
 ] as const;
