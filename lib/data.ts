@@ -47,7 +47,6 @@ export const skillsData = [
   "Emergency Helper", // emergency helper
   "AquinRecipes", // recipe generator
   "Summarizez", // AI summarizer
-  "Exer", // AI excersize app
   "Quez", // AI quizes
   "File Convertor", // File Convertor
   "MedInfor", // Medical information app
