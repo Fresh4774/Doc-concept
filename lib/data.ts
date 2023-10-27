@@ -44,7 +44,6 @@ export const skillsData = [
   "Gramer", // AI grammer fixer
   "AquinTutorials", // AI tutorial generator
   "Fooder", // AI meal planner
-  "Emergency Helper", // emergency helper
   "AquinRecipes", // recipe generator
   "Summarizez", // AI summarizer
   "Quez", // AI quizes
