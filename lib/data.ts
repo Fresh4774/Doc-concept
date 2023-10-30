@@ -42,17 +42,16 @@ export const skillsData = [
   "Statz", // Statistics Search Engine
   "Imagen", // AI Image generator
   "Gramer", // AI grammer fixer
-  "AquinTutorials", // AI tutorial generator
+  "Tutorial", // AI tutorial generator
   "Fooder", // AI meal planner
-  "AquinRecipes", // recipe generator
-  "Summarizez", // AI summarizer
+  "Recipz", // recipe generator
+  "Sumriz", // AI summarizer
   "Quez", // AI quizes
   "File Convertor", // File Convertor
   "MedInfor", // Medical information app
-  "PresentationGen", // AI presentation generator
+  "Presen", // AI presentation generator
   "Speak", // AI voice app
   "Docs", // document helper AI module
   "XD", // Aquin all in one AI
-  "Colors", // Color patelete generator
 ] as const;
 
