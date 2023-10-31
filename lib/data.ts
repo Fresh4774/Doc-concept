@@ -53,5 +53,10 @@ export const skillsData = [
   "Speak", // AI voice app
   "Docs", // document helper AI module
   "XD", // Aquin all in one AI
+  "VidGen", // Video generator
+  "Texter", // text generator
+  "AudGen", // audio generator
+  "CodeGen", // code generator
+  "XD", // Aquin all in one AI
 ] as const;
 
