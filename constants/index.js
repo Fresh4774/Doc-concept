@@ -3,31 +3,25 @@ export const exploreWorlds = [
     id: 'world-1',
     imgUrl: '/planet-01.png',
     title: 'XD',
-    subTitle: 'AquinXD - Under Development.',
+    subTitle: 'AquinXD',
+  },
+  {
+    id: 'world-4',
+    imgUrl: '/planet-04.png',
+    title: 'Core',
+    subTitle: 'AquinCore',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'Voice',
-    subTitle: 'AquinVoice - Announcing Soon!',
+    title: 'Sound',
+    subTitle: 'AquinSound',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
     title: 'Infinity',
-    subTitle: 'AquinInfinity - Announcing Soon!',
-  },
-  {
-    id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Statz',
-    subTitle: 'AquinStatz - Announcing Soon!',
-  },
-  {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Speak',
-    subTitle: 'AquinSpeak - Announcing Soon!',
+    subTitle: 'AquinInfinity',
   },
 ];
 
@@ -52,45 +46,39 @@ export const newFeatures = [
     imgUrl: '/LOGO.png',
     title: 'Non-AI Tools',
     subtitle:
-        'Aquin currently has a variety of non-AI tools: Resume Generator, Calculators, Translators, Password Generators, Extractors, Whiteboard, QR generator, etc.',
+        'Aquin currently has a variety of non-AI tools: Resume Generator, Calculators, Translators, Password Generators, Extractors, Whiteboard, QR generator, exercise, image finder, colors etc.',
   },
   {
     imgUrl: '/LOGO.png',
-    title: 'Merchez',
+    title: 'Video Game Launcher',
     subtitle:
-        'Merchez is a tool where you can customize T-shirts!',
+        'Aquin has its own Video Game Launcher!',
   },
   {
     imgUrl: '/LOGO.png',
-    title: 'AquinGames',
+    title: 'WallArt',
     subtitle:
-        'Aquins own Video Game Launcher with 20+ games to play!',
+        'Aquin has its own Wallpaper gallery!',
   },
   {
     imgUrl: '/LOGO.png',
-    title: 'AquinWallpapers',
+    title: 'New UI/UX',
     subtitle:
-        'Aquins own wallpaper gallery from a variety of artists to pick, with a bigger variety of wallpapers by them!',
+        'Aquin now has a more user friendly user interface!',
   },
 ];
 
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'Aquin-ProtoV2.1 will include the announcement and introduction to XD.',
+    title: 'AquinV1 will include XD for the first time!',
     subtitle:
-        'Aquin-ProtoV2.1 will be released on November 12, 2023, at 8 am IST, this Diwali! It will include one of the biggest announcements, which is the introduction to XD.',
+        'AquinV1 will be released on November around this christmas, it will include one of the main components, XD.',
   },
   {
     imgUrl: '/planet-07.png',
-    title: 'Aquin-ProtoV2.1 will also include a better UI/UX with tons of improvements all over the app.',
+    title: 'AquinV1 will also include a better UI/UX with tons of improvements all over the app.',
     subtitle:
-        'Aquin-ProtoV2.1 will be released on November 12, 2023, at 8 am IST, this Diwali! It will be including a better UI/UX with tons of improvements all over the app.',
-  },
-  {
-    imgUrl: '/planet-08.png',
-    title: 'Aquin-ProtoV2.1 will also include upgrades and new non-AI tools.',
-    subtitle:
-        'Aquin-ProtoV2.1 will be released on November 12, 2023, at 8 am IST, this Diwali! It will also include upgrades and new non-AI tools.',
+        'AquinV1 will be released on November around this christmas, it will be including a whole new UI/UX with tons of improvements all over the app.',
   },
 ];
