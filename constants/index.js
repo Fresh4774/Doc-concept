@@ -27,7 +27,6 @@ export const exploreWorlds = [
 
 export const startingFeatures = [
   'XD, an AI capable of optimizing a wide spectrum of activities to enhance technological usability.',
-  'Speak, an upgraded feature to XD, which adds voice interface and better comunication with XD.',
 ];
 
 // StartingFeatures above
