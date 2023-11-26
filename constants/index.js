@@ -26,7 +26,8 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'XD, an AI capable of optimizing a wide spectrum of activities to enhance technological usability.',
+  'XD',
+  'Experimentals',
 ];
 
 // StartingFeatures above
@@ -43,41 +44,35 @@ export const startingFeatures = [
 export const newFeatures = [
   {
     imgUrl: '/LOGO.png',
-    title: 'Non-AI Tools',
+    title: 'XD',
     subtitle:
-        'Aquin currently has a variety of non-AI tools: Resume Generator, Calculators, Translators, Password Generators, Extractors, Whiteboard, QR generator, exercise, image finder, colors etc.',
+        'Introducing XD an AI which is capable of doing all kind of tasks!',
   },
   {
     imgUrl: '/LOGO.png',
-    title: 'Video Game Launcher',
+    title: 'Experimentals',
     subtitle:
-        'Aquin has its own Video Game Launcher!',
-  },
-  {
-    imgUrl: '/LOGO.png',
-    title: 'WallArt',
-    subtitle:
-        'Aquin has its own Wallpaper gallery!',
-  },
-  {
-    imgUrl: '/LOGO.png',
-    title: 'New UI/UX',
-    subtitle:
-        'Aquin now has a more user friendly user interface!',
+        'While XD is developed, it also have in-development features and we like to call them Experimentals.',
   },
 ];
 
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'AquinV1 will include XD for the first time!',
+    title: 'AquinV1 will introduce XD for the first time!',
     subtitle:
-        'AquinV1 will be released on November around this christmas, it will include one of the main components, XD.',
+        'AquinV1 will be released on 8:00AM IST 25 december 2023, this christmas! it will be introcuding XD.',
+  },
+  {
+    imgUrl: '/planet-08.png',
+    title: 'AquinV1 will also introduce a Experimental features!',
+    subtitle:
+        'AquinV1 will be released on 8:00AM IST 25 december 2023, this christmas! it will be also introducing Experimental features.',
   },
   {
     imgUrl: '/planet-07.png',
     title: 'AquinV1 will also include a better UI/UX with tons of improvements all over the app.',
     subtitle:
-        'AquinV1 will be released on November around this christmas, it will be including a whole new UI/UX with tons of improvements all over the app.',
+        'AquinV1 will be released on 8:00AM IST 25 december 2023, this christmas! it will also include a whole new UI/UX with tons of improvements.',
   },
 ];

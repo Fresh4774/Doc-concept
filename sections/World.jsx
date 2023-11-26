@@ -16,11 +16,11 @@ const World = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
 
-      <TypingText title="| Our Earth" textStyles="text-center" />
+      <TypingText title="| Our Earth, Our Aquin" textStyles="text-center" />
       <TitleText
         title={(
           <>
-            Aquin is Available Around the Globe!
+            Aquin is Works Around the Globe!
           </>
         )}
         textStyles="text-center"
