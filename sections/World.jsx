@@ -20,7 +20,7 @@ const World = () => (
       <TitleText
         title={(
           <>
-            Aquin is Works Around the Globe!
+            Aquin Works Around the Globe!
           </>
         )}
         textStyles="text-center"
