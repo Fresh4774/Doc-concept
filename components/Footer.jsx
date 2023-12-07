@@ -47,7 +47,7 @@ const Footer = () => (
 
           <div className="flex gap-4">
             <div className="flex flex-row">
-              <a className="mr-3" href="https://aquin.netlify.app/" target="_blank" rel="noreferrer">
+              <a className="mr-3" href="https://aquin.app/" target="_blank" rel="noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="30" height="30" viewBox="0 0 24 24"><path d="M17 13v-13h-2v5h-2v-3h-2v7h-2v-9h-2v13h-6l11 11 11-11z" /></svg>
               </a>
               <a className="mr-3" href="https://twitter.com/itssAquin" target="_blank" rel="noreferrer">
