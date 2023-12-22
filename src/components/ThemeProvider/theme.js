@@ -1,6 +1,5 @@
 import { pxToRem } from 'utils/style';
 
-// Full list of tokens
 const baseTokens = {
   rgbBlack: '0 0 0',
   rgbWhite: '255 255 255',
@@ -55,7 +54,6 @@ const baseTokens = {
   zIndex5: 64,
 };
 
-// Tokens that change based on viewport size
 const tokensDesktop = {
   fontSizeH0: pxToRem(120),
   fontSizeH1: pxToRem(80),
@@ -106,7 +104,6 @@ const tokensMobileSmall = {
   fontSizeH4: pxToRem(20),
 };
 
-// Tokens that change based on theme
 const dark = {
   themeId: 'dark',
   rgbBackground: '17 17 17',

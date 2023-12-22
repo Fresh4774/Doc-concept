@@ -1,5 +1,4 @@
 import { Icon } from 'components/Icon';
-import { Monogram } from 'components/Monogram';
 import { useTheme } from 'components/ThemeProvider';
 import { tokens } from 'components/ThemeProvider/theme';
 import { Transition } from 'components/Transition';
@@ -141,16 +140,6 @@ export const Navbar = () => {
 
   return (
     <header className={styles.navbar} ref={headerRef}>
-      <RouterLink href={route === '/' ? '/#intro' : '/'} scroll={false}>
-        <a
-          data-navbar-item
-          className={styles.logo}
-          aria-label="Hamish Williams, Designer"
-          onClick={handleMobileNavClick}
-        >
-          <Monogram highlight />
-        </a>
-      </RouterLink>
       <NavToggle onClick={() => dispatch({ type: 'toggleMenu' })} menuOpen={menuOpen} />
       <nav className={styles.nav}>
         <div className={styles.navList}>

@@ -27,7 +27,6 @@ export const ThemeProvider = ({
   const isRootProvider = !parentTheme.themeId;
   const hasMounted = useHasMounted();
 
-  // Save root theme id to localstorage and apply class to body
   useEffect(() => {
     if (isRootProvider && hasMounted) {
       window.localStorage.setItem('theme', JSON.stringify(themeId));
@@ -45,7 +44,6 @@ export const ThemeProvider = ({
           {children}
         </>
       )}
-      {/* Nested providers need a div to override theme tokens */}
       {!isRootProvider && (
         <Component
           className={classes('theme-provider', className)}
@@ -59,16 +57,10 @@ export const ThemeProvider = ({
   );
 };
 
-/**
- * Squeeze out spaces and newlines
- */
 export function squish(styles) {
   return styles.replace(/\s\s+/g, ' ');
 }
 
-/**
- * Transform theme token objects into CSS custom property strings
- */
 export function createThemeProperties(theme) {
   return squish(
     Object.keys(theme)
@@ -78,9 +70,6 @@ export function createThemeProperties(theme) {
   );
 }
 
-/**
- * Transform theme tokens into a React CSSProperties object
- */
 export function createThemeStyleObject(theme) {
   let style = {};
 
@@ -93,9 +82,6 @@ export function createThemeStyleObject(theme) {
   return style;
 }
 
-/**
- * Generate media queries for tokens
- */
 export function createMediaTokenProperties() {
   return squish(
     Object.keys(media)

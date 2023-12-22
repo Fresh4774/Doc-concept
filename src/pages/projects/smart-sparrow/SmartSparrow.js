@@ -4,18 +4,14 @@ import imageSprBackgroundVolcanismLarge from 'assets/spr-background-volcanism-la
 import imageSprBackgroundVolcanismPlaceholder from 'assets/spr-background-volcanism-placeholder.jpg';
 import imageSprBackgroundVolcanism from 'assets/spr-background-volcanism.jpg';
 import backgroundSpr from 'assets/spr-background.jpg';
-import imageSprComponentsDarkLarge from 'assets/spr-components-dark-large.png';
 import imageSprComponentsDarkPlaceholder from 'assets/spr-components-dark-placeholder.png';
-import imageSprComponentsDark from 'assets/spr-components-dark.png';
-import imageSprComponentsLightLarge from 'assets/spr-components-light-large.png';
 import imageSprComponentsLightPlaceholder from 'assets/spr-components-light-placeholder.png';
-import imageSprComponentsLight from 'assets/spr-components-light.png';
-import imageSprDesignSystemDarkLarge from 'assets/spr-design-system-dark-large.png';
 import imageSprDesignSystemDarkPlaceholder from 'assets/spr-design-system-dark-placeholder.png';
-import imageSprDesignSystemDark from 'assets/spr-design-system-dark.png';
-import imageSprDesignSystemLightLarge from 'assets/spr-design-system-light-large.png';
+import volkiharBackgroundLarge from 'assets/ex-large.png';
+import volkiharSlide1 from 'assets/ex.png';
+import volkiharBackgroundLarge2 from 'assets/bot-large.png';
+import volkiharSlide2 from 'assets/bot.png';
 import imageSprDesignSystemLightPlaceholder from 'assets/spr-design-system-light-placeholder.png';
-import imageSprDesignSystemLight from 'assets/spr-design-system-light.png';
 import imageSprLessonBuilderDarkLarge from 'assets/spr-lesson-builder-dark-large.jpg';
 import imageSprLessonBuilderDarkPlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
 import imageSprLessonBuilderDark from 'assets/spr-lesson-builder-dark.jpg';
@@ -28,28 +24,16 @@ import videoSprMotion from 'assets/spr-motion.mp4';
 import imageSprSchema1DarkLarge from 'assets/spr-schema-1-dark-large.png';
 import imageSprSchema1DarkPlaceholder from 'assets/spr-schema-1-dark-placeholder.png';
 import imageSprSchema1Dark from 'assets/spr-schema-1-dark.png';
-import imageSprSchema1LightLarge from 'assets/spr-schema-1-light-large.png';
 import imageSprSchema1LightPlaceholder from 'assets/spr-schema-1-light-placeholder.png';
-import imageSprSchema1Light from 'assets/spr-schema-1-light.png';
-import imageSprSchema2DarkLarge from 'assets/spr-schema-2-dark-large.png';
 import imageSprSchema2DarkPlaceholder from 'assets/spr-schema-2-dark-placeholder.png';
-import imageSprSchema2Dark from 'assets/spr-schema-2-dark.png';
-import imageSprSchema2LightLarge from 'assets/spr-schema-2-light-large.png';
 import imageSprSchema2LightPlaceholder from 'assets/spr-schema-2-light-placeholder.png';
-import imageSprSchema2Light from 'assets/spr-schema-2-light.png';
 import imageSprStoryboarderDarkLarge from 'assets/spr-storyboarder-dark-large.png';
 import imageSprStoryboarderDarkPlaceholder from 'assets/spr-storyboarder-dark-placeholder.png';
 import imageSprStoryboarderDark from 'assets/spr-storyboarder-dark.png';
-import imageSprStoryboarderLightLarge from 'assets/spr-storyboarder-light-large.png';
 import imageSprStoryboarderLightPlaceholder from 'assets/spr-storyboarder-light-placeholder.png';
-import imageSprStoryboarderLight from 'assets/spr-storyboarder-light.png';
 import { Footer } from 'components/Footer';
 import { Image } from 'components/Image';
-import { Link } from 'components/Link';
-import { Meta } from 'components/Meta';
-import { SegmentedControl, SegmentedControlOption } from 'components/SegmentedControl';
 import { ThemeProvider, useTheme } from 'components/ThemeProvider';
-import { useAppContext } from 'hooks';
 import {
   ProjectBackground,
   ProjectContainer,
@@ -70,31 +54,24 @@ import styles from './SmartSparrow.module.css';
 const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
 const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
 
-const title = 'Designing the future of education';
+const title = 'How?';
 const description =
-  'I worked as the design lead on a major iteration of Smart Sparrow’s product. We took the platform in a bold new direction, focusing on becoming the best tool for learning designers.';
+  'If you find Aquin challenging to navigate and are seeking clarity on its features or how to effectively utilize its functionalities, youll might find answers to all your queries over here.';
 const roles = [
-  'Art Direction',
-  'UX and UI Design',
-  'Front End Development',
-  'Motion Design',
+  'How to open XD ?',
+  'How to try experimental features ?',
+  'How to generate images ?',
+  'How to use drawing to ai art ?',
 ];
 
 export const SmartSparrow = () => {
   const { themeId } = useTheme();
-  const { dispatch } = useAppContext();
 
   const isDark = themeId === 'dark';
-  const themes = ['dark', 'light'];
-
-  const handleThemeChange = index => {
-    dispatch({ type: 'setTheme', value: themes[index] });
-  };
 
   return (
     <Fragment>
       <ProjectContainer className="spr">
-        <Meta title={title} prefix="Projects" description={description} />
         <ProjectBackground
           opacity={isDark ? 0.5 : 0.8}
           src={backgroundSpr}
@@ -104,7 +81,8 @@ export const SmartSparrow = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.smartsparrow.com/"
+          url="https://aquin.app"
+          linkLabel="Try Now"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -129,15 +107,9 @@ export const SmartSparrow = () => {
         </ProjectSection>
         <ProjectSection>
           <ProjectTextRow>
-            <ProjectSectionHeading>The problem</ProjectSectionHeading>
+            <ProjectSectionHeading>AquinV1 Application</ProjectSectionHeading>
             <ProjectSectionText>
-              In 2017, Smart Sparrow began a project to build an entirely new platform to
-              from the ground up to serve as the most powerful tool for educators to
-              create online learning experiences. The old platform was built in Flash, and
-              there were a number of user experience problems to solve in the process of
-              moving the platform to Javascript. The primary goals for the project were
-              reducing barriers to collaboration, and making the platform both easier for
-              new users, but with plenty of room to scale for advanced users.
+            AquinV1 is a PWA and it works seamlessly across all browsers. Upon launching the application, youll be directed to a login page offering multiple options, Google, X, GitHub, and Microsoft, for authentication. After successfully logging in, youll be guided to the home screen where you can choose between two options: _Im XD_ for opening the main XD bot or _I do experimentals_ to explore experimental features.
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
@@ -147,34 +119,21 @@ export const SmartSparrow = () => {
               key={themeId}
               srcSet={
                 isDark
-                  ? [imageSprComponentsDark, imageSprComponentsDarkLarge]
-                  : [imageSprComponentsLight, imageSprComponentsLightLarge]
+                  ? [volkiharSlide1, volkiharBackgroundLarge]
+                  : [volkiharSlide1, volkiharBackgroundLarge]
               }
               placeholder={
                 isDark
                   ? imageSprComponentsDarkPlaceholder
                   : imageSprComponentsLightPlaceholder
               }
-              alt={`A set of ${themeId} themed components for the aero design system`}
+              alt={`A set of ${themeId} themed components for Experimental Features`}
               sizes="100vw"
             />
             <ProjectTextRow>
-              <SegmentedControl
-                currentIndex={themes.indexOf(themeId)}
-                onChange={handleThemeChange}
-              >
-                <SegmentedControlOption>Dark theme</SegmentedControlOption>
-                <SegmentedControlOption>Light theme</SegmentedControlOption>
-              </SegmentedControl>
-            </ProjectTextRow>
-            <ProjectTextRow>
-              <ProjectSectionHeading>The aero design system</ProjectSectionHeading>
+              <ProjectSectionHeading>Experimental Features</ProjectSectionHeading>
               <ProjectSectionText>
-                To streamline the design process across designers and engineers for such a
-                large project, it was important to lay the foundations with a strong,
-                flexible design system that could evolve during the product’s development
-                cycle. This would inform both the aesthetics and user experience across
-                the product itself as well as the website and marketing material.
+              If you access the experimental features, youll the 2 main experimentals. Which are features like link summarization or transforming drawings into AI-generated art. but remember that these are experimental features, and their functionality may work and may not. Team Aquin is dedicatedly working to enhance these features.
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
@@ -186,24 +145,21 @@ export const SmartSparrow = () => {
               key={themeId}
               srcSet={
                 isDark
-                  ? [imageSprDesignSystemDark, imageSprDesignSystemDarkLarge]
-                  : [imageSprDesignSystemLight, imageSprDesignSystemLightLarge]
+                  ? [volkiharSlide2, volkiharBackgroundLarge2]
+                  : [volkiharSlide2, volkiharBackgroundLarge2]
               }
               placeholder={
                 isDark
                   ? imageSprDesignSystemDarkPlaceholder
                   : imageSprDesignSystemLightPlaceholder
               }
-              alt="The homepage of the aero design system docs website linking to principles and components."
+              alt="The homepage of Experimental Features docs website linking to principles and components."
               sizes="100vw"
             />
             <ProjectTextRow>
-              <ProjectSectionHeading>Design system docs</ProjectSectionHeading>
+              <ProjectSectionHeading>XD</ProjectSectionHeading>
               <ProjectSectionText>
-                A design system is useless if no one knows how to use it, so we put
-                together a comprehensive documentation website to cover principles, ux,
-                accessibility, and component guidelines for designers and engineers
-                working with the system.
+              XD is the main bot, where you can start by just texting it. Try explore features such as speech-to-text, text-to-speech, camera utilization, attachment features and many more. Try navigating through the top bar to access diverse conversation management options and settings. You can also switch between conversation types. All features are represented by icons.
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
@@ -223,12 +179,9 @@ export const SmartSparrow = () => {
             <ProjectSectionColumns width="full">
               <ProjectSectionContent width="full">
                 <ProjectTextRow width="s">
-                  <ProjectSectionHeading>Motion design</ProjectSectionHeading>
+                  <ProjectSectionHeading>Switch Conversations</ProjectSectionHeading>
                   <ProjectSectionText>
-                    Animation was a core principle in making the authoring experience a
-                    more understandable process. Elements animate in ways that indicate
-                    the cause and effect of each interaction to improve the fluidity of
-                    the overall experience.
+                  When you toggle between conversation types, youll find 3 options. First is Texter a generative text-based AI enabling a broad spectrum of interactions. Next, is Draw, a image generation AI, allowing you to experiment with various settings and try different image outcomes. Lastly, explore Reason + Act to gain deeper insights into XD.
                   </ProjectSectionText>
                 </ProjectTextRow>
               </ProjectSectionContent>
@@ -249,13 +202,9 @@ export const SmartSparrow = () => {
         <ProjectSection>
           <ProjectSectionContent>
             <ProjectTextRow>
-              <ProjectSectionHeading>Encouraging adaptivity</ProjectSectionHeading>
+              <ProjectSectionHeading>Summarize Conversations</ProjectSectionHeading>
               <ProjectSectionText>
-                A major part of solving for collaboration was being able to visualize the
-                learner experience in the editor. This was especially beneficial for
-                subject matter experts and instructors need to review and give feedback on
-                the higher level structure without having to dig through all of the
-                adaptivity scenarios screen by screen.
+              You can summarize your conversations. This feature allows you to summarize your conversations with the AI in a way that suits your needs. You select from a range of summarization types, which are brief summaries for a quick overview, detailed summaries for in-depth details, and open-ended actionable summaries.
               </ProjectSectionText>
             </ProjectTextRow>
             <Image
@@ -264,7 +213,7 @@ export const SmartSparrow = () => {
               srcSet={
                 isDark
                   ? [imageSprStoryboarderDark, imageSprStoryboarderDarkLarge]
-                  : [imageSprStoryboarderLight, imageSprStoryboarderLightLarge]
+                  : [imageSprStoryboarderDark, imageSprStoryboarderDarkLarge]
               }
               placeholder={
                 isDark
@@ -281,14 +230,10 @@ export const SmartSparrow = () => {
             <ProjectSectionContent>
               <ProjectTextRow>
                 <ProjectSectionHeading>
-                  An extensible plugin ecosystem usable by everyone
+                  Features
                 </ProjectSectionHeading>
                 <ProjectSectionText>
-                  The most powerful aspect of the platform is the ability to create custom
-                  plugins for any content, whether it be a degree, course, lesson, screen,
-                  or interactive component. Out of the box these can be made configurable
-                  with minimal effort from developers. Learning designers can then edit
-                  everything using a common configuration interface.
+                Discover many cool features! Play with different settings for dicovering new things. Try them all out! Aquin got a lot for you to explore!
                 </ProjectSectionText>
               </ProjectTextRow>
             </ProjectSectionContent>
@@ -297,8 +242,8 @@ export const SmartSparrow = () => {
                 className={styles.sidebarImage}
                 srcSet={
                   isDark
-                    ? [imageSprSchema2Dark, imageSprSchema2DarkLarge]
-                    : [imageSprSchema2Light, imageSprSchema2LightLarge]
+                    ? [imageSprSchema1Dark, imageSprSchema1DarkLarge]
+                    : [imageSprSchema1Dark, imageSprSchema1DarkLarge]
                 }
                 placeholder={
                   isDark
@@ -313,7 +258,7 @@ export const SmartSparrow = () => {
                 srcSet={
                   isDark
                     ? [imageSprSchema1Dark, imageSprSchema1DarkLarge]
-                    : [imageSprSchema1Light, imageSprSchema1LightLarge]
+                    : [imageSprSchema1Dark, imageSprSchema1DarkLarge]
                 }
                 placeholder={
                   isDark
@@ -338,32 +283,32 @@ export const SmartSparrow = () => {
               () => [
                 {
                   position: [0.54, 0.19, 0.18],
-                  text: 'Pacific ring of fire',
+                  text: 'Ocean',
                   hidden: true,
                 },
                 {
                   position: [0.47, -0.38, 0.04],
-                  text: 'Ruapehu',
+                  text: 'More Land',
                   hidden: true,
                 },
                 {
                   position: [0.22, 0.44, -0.35],
-                  text: 'St. Helens',
+                  text: 'Land',
                   hidden: true,
                 },
                 {
                   position: [0.16, -0.06, 0.58],
-                  text: 'Krakatoa',
+                  text: 'More Islands',
                   hidden: true,
                 },
                 {
                   position: [0.11, 0.2, -0.56],
-                  text: 'Parícutin',
+                  text: 'Land at Night',
                   hidden: true,
                 },
                 {
                   position: [0.52, 0.2, -0.23],
-                  text: 'Kīlauea',
+                  text: 'Islands',
                   hidden: true,
                 },
                 {
@@ -399,12 +344,10 @@ export const SmartSparrow = () => {
                 <ProjectSectionContent>
                   <ProjectTextRow center>
                     <ProjectSectionHeading>
-                      Next-generation learning experiences
+                      The Next Generation of Technology
                     </ProjectSectionHeading>
                     <ProjectSectionText>
-                      The flexibility of the product allowed for developers to create
-                      engaging interactive experiences as highly configurable plugins that
-                      could then be used and manipulated by learning designers.
+                    Aquin stands out with its remarkable flexibility, welcoming users from all walks of life to explore the frontiers of the next generation of technology.
                     </ProjectSectionText>
                   </ProjectTextRow>
                 </ProjectSectionContent>
@@ -424,12 +367,10 @@ export const SmartSparrow = () => {
                 <ProjectSectionContent width="xl">
                   <ProjectTextRow justify="end" width="s">
                     <ProjectSectionHeading level={4} as="h3">
-                      Bringing 3D into learning
+                      To Use
                     </ProjectSectionHeading>
                     <ProjectSectionText>
-                      One really cool example is the 3D screen plugin. Learning designers
-                      can load any model into it and then configure camera positions to
-                      animate to for each section.
+                     Aquin goes beyond boundaries, Whether youre on any device Aquin adapts to your preferences, ensuring a consistent and user friendly experience across different platforms. Excitingly, it doesnt stop there Aquin is gearing up to make its presence on Play Store and Microsoft Store.
                     </ProjectSectionText>
                   </ProjectTextRow>
                 </ProjectSectionContent>
@@ -440,24 +381,22 @@ export const SmartSparrow = () => {
               camera={[1.17, 0.69, -1.47]}
               meshes={['Atmosphere', 'EarthFull']}
               labels={[
-                'Pacific ring of fire',
-                'Ruapehu',
-                'St. Helens',
-                'Krakatoa',
-                'Parícutin',
-                'Kīlauea',
+                'Ocean',
+                'More Land',
+                'Land',
+                'More Islands',
+                'Land at Night',
+                'Islands',
               ]}
             >
               <ProjectSection>
                 <ProjectSectionContent width="xl">
                   <ProjectTextRow justify="start" width="s">
                     <ProjectSectionHeading level={4} as="h3">
-                      Interactivity
+                      To Use
                     </ProjectSectionHeading>
                     <ProjectSectionText>
-                      Learners can then be directed to specific parts of the model and
-                      shown labels. They’re also able to click and drag to orbit around
-                      and freely explore at any time.
+                    Aquin opens up a world of possibilities by being accessible on any browser. Regardless of whether what you prefer, Aquin keeps a smooth and inclusive user experience.
                     </ProjectSectionText>
                   </ProjectTextRow>
                 </ProjectSectionContent>
@@ -468,12 +407,12 @@ export const SmartSparrow = () => {
               camera={[1.81, 0.51, 0.43]}
               meshes={['Atmosphere', 'EarthFull']}
               labels={[
-                'Pacific ring of fire',
-                'Ruapehu',
-                'St. Helens',
-                'Krakatoa',
-                'Parícutin',
-                'Kīlauea',
+                'Ocean',
+                'More Land',
+                'Land',
+                'More Islands',
+                'Land at Night',
+                'Islands',
               ]}
             />
             <EarthSection
@@ -486,12 +425,10 @@ export const SmartSparrow = () => {
                 <ProjectSectionContent width="xl">
                   <ProjectTextRow justify="end" width="s">
                     <ProjectSectionHeading level={4} as="h3">
-                      Animation
+                      Its Never Over
                     </ProjectSectionHeading>
                     <ProjectSectionText>
-                      Learning designers can pick an animation included in the model to
-                      play or loop for any section without having to use any complex
-                      animation tools.
+                    Aquin keeps getting better with amazing updates that go beyond expectations. Get ready for a continuous flow of exciting improvements that will make your experience even more incredible!
                     </ProjectSectionText>
                   </ProjectTextRow>
                 </ProjectSectionContent>
@@ -505,21 +442,6 @@ export const SmartSparrow = () => {
             />
           </Earth>
         </ThemeProvider>
-        <ProjectSection>
-          <ProjectSectionContent>
-            <ProjectTextRow center centerMobile noMargin>
-              <ProjectSectionHeading>Project outcomes</ProjectSectionHeading>
-              <ProjectSectionText>
-                Ultimately the project was successful after Smart Sparrow and the aero
-                platform were{' '}
-                <Link href="https://www.prnewswire.com/news-releases/pearson-acquires-interactive-learning-technology-from-smart-sparrow-300987673.html">
-                  acquired by Pearson in 2020
-                </Link>{' '}
-                to become a foundation for their next generation learning platform.
-              </ProjectSectionText>
-            </ProjectTextRow>
-          </ProjectSectionContent>
-        </ProjectSection>
       </ProjectContainer>
       <Footer />
     </Fragment>
