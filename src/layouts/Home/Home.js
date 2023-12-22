@@ -11,13 +11,14 @@ import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
 import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
 import { Footer } from 'components/Footer';
+import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
 import { Profile } from 'layouts/Home/Profile';
 import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Cool', 'Insane', 'Accessible', 'Endless', 'Revolutionary', 'Progressive'];
+const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -66,6 +67,11 @@ export const Home = () => {
 
   return (
     <div className={styles.home}>
+      <Meta
+        title="Designer + Developer"
+        description="Design portfolio of Hamish Williams — a product designer working on web & mobile
+          apps with a focus on motion, experience design, and accessibility."
+      />
       <Intro
         id="intro"
         sectionRef={intro}
@@ -77,10 +83,10 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Cool + Insane"
-        description="This is something cool and insane."
-        buttonText="Try Now"
-        buttonLink="https://aquin.app"
+        title="Designing the future of education"
+        description="Designing a platform to help educators build better online courseware"
+        buttonText="View project"
+        buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -98,10 +104,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Accessible + Endless"
-        description="This is something accessible from almost everywhere with endless things to try."
-        buttonText="Try Now"
-        buttonLink="https://aquin.app"
+        title="Video game progress tracking"
+        description="Design and development for a video game tracking app built in React Native"
+        buttonText="View website"
+        buttonLink="https://gamestack.hamishw.com"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -122,10 +128,10 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Revolutionary + Progressive"
-        description="This is something revolutionary, which is progressing every second."
-        buttonText="Try Now"
-        buttonLink="https://aquin.app"
+        title="Biomedical image collaboration"
+        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        buttonText="View project"
+        buttonLink="/projects/slice"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',

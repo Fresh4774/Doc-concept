@@ -13,13 +13,16 @@ export function useWindowSize() {
 
     document.documentElement.appendChild(ruler);
 
+    // Set cache conscientious of device orientation
     dimensions.current.w = window.innerWidth;
     dimensions.current.h = ruler.offsetHeight;
 
+    // Clean up after ourselves
     document.documentElement.removeChild(ruler);
     ruler = null;
   }, []);
 
+  // Get the actual height on iOS Safari
   const getHeight = useCallback(() => {
     const isIOS = navigator?.userAgent.match(/iphone|ipod|ipad/i);
 

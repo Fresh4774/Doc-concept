@@ -1,40 +1,36 @@
 export const navLinks = [
   {
-    label: 'Look',
+    label: 'Projects',
     pathname: '/#project-1',
   },
   {
-    label: 'About',
+    label: 'Details',
     pathname: '/#details',
   },
   {
-    label: 'AquinV1',
-    pathname: '/uses',
+    label: 'Articles',
+    pathname: '/articles',
   },
   {
-    label: 'How?',
-    pathname: '/projects/smart-sparrow',
-  },
-  {
-    label: 'Soon',
-    pathname: '/projects/volkihar-knight',
+    label: 'Contact',
+    pathname: '/contact',
   },
 ];
 
 export const socialLinks = [
   {
-    label: 'X',
-    url: 'https://twitter.com/itssAquin',
+    label: 'Twitter',
+    url: 'https://twitter.com/hamishMW',
     icon: 'twitter',
   },
   {
-    label: 'Discord',
-    url: 'https://discord.com/invite/DhX7fBpp3W',
-    icon: 'Discord',
+    label: 'Figma',
+    url: 'https://www.figma.com/@Hamish',
+    icon: 'figma',
   },
   {
-    label: 'YouTube',
-    url: 'https://www.youtube.com/@Aquin470',
-    icon: 'YouTube',
+    label: 'Github',
+    url: 'https://github.com/HamishMW',
+    icon: 'github',
   },
 ];

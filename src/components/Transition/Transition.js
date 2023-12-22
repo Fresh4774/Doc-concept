@@ -1,6 +1,10 @@
 import { AnimatePresence, usePresence } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
 
+/**
+ * A Framer Motion AnimatePresence implementation of `react-transition-group`
+ * to be used for vanilla css transitions
+ */
 export const Transition = ({
   children,
   timeout = 0,

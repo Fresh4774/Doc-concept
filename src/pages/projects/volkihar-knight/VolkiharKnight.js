@@ -1,12 +1,19 @@
 import volkiharBackgroundLarge from 'assets/volkihar-background-large.jpg';
 import volkiharBackgroundPlaceholder from 'assets/volkihar-background-placeholder.jpg';
 import volkiharBackground from 'assets/volkihar-background.jpg';
+import volkiharBannerLarge from 'assets/volkihar-banner-large.jpg';
+import volkiharBannerPlaceholder from 'assets/volkihar-banner-placeholder.jpg';
+import volkiharBanner from 'assets/volkihar-banner.jpg';
+import volkiharBookLarge from 'assets/volkihar-book-large.png';
+import volkiharBookPlaceholder from 'assets/volkihar-book-placeholder.png';
+import volkiharBook from 'assets/volkihar-book.png';
 import volkiharEnderalLarge from 'assets/volkihar-enderal-large.jpg';
 import volkiharEnderalLogoLarge from 'assets/volkihar-enderal-logo-large.png';
 import volkiharEnderalLogoPlaceholder from 'assets/volkihar-enderal-logo-placeholder.png';
 import volkiharEnderalLogo from 'assets/volkihar-enderal-logo.png';
 import volkiharEnderalPlaceholder from 'assets/volkihar-enderal-placeholder.jpg';
 import volkiharEnderal from 'assets/volkihar-enderal.jpg';
+import VolkiharKnightLogo from 'assets/volkihar-logo.svg';
 import volkiharSlide1Large from 'assets/volkihar-slide-1-large.jpg';
 import volkiharSlide1 from 'assets/volkihar-slide-1.jpg';
 import volkiharSlide2Large from 'assets/volkihar-slide-2-large.jpg';
@@ -17,11 +24,14 @@ import volkiharSlidePlaceholder from 'assets/volkihar-slide-placeholder.jpg';
 import { Button } from 'components/Button';
 import { Footer } from 'components/Footer';
 import { Image } from 'components/Image';
+import { Meta } from 'components/Meta';
 import {
   ProjectBackground,
   ProjectContainer,
   ProjectHeader,
+  ProjectImage,
   ProjectSection,
+  ProjectSectionColumns,
   ProjectSectionContent,
   ProjectSectionHeading,
   ProjectSectionText,
@@ -30,17 +40,20 @@ import {
 import dynamic from 'next/dynamic';
 import { Fragment } from 'react';
 import { media } from 'utils/style';
+import styles from './VolkiharKnight.module.css';
 
 const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Carousel));
+const Armor = dynamic(() => import('./Armor').then(mod => mod.Armor));
 
-const title = 'AquinV1.1';
+const title = 'Volkihar Knight';
 const description =
-  'AquinV1.1 announcement will be out soon!';
-const roles = ['New UI/UX', 'New Features', 'New Structure'];
+  'A lore-friendly armor mod for The Elder Scrolls V: Skyrim. Released on PC and Xbox One with over one million downloads across both platforms.';
+const roles = ['3D Modelling', 'Texturing', 'Graphic Design'];
 
 export function VolkiharKnight() {
   return (
     <Fragment>
+      <Meta title={title} prefix="Projects" description={description} />
       <style
         dangerouslySetInnerHTML={{
           __html: `
@@ -64,10 +77,71 @@ export function VolkiharKnight() {
         <ProjectHeader
           title={title}
           description={description}
-          linkLabel="Try AquinV1"
-          url="https://aquin.app"
+          linkLabel="Get the mod"
+          url="https://www.nexusmods.com/skyrimspecialedition/mods/4806/"
           roles={roles}
         />
+        <ProjectSection>
+          <ProjectSectionContent>
+            <ProjectImage
+              srcSet={[volkiharBanner, volkiharBannerLarge]}
+              placeholder={volkiharBannerPlaceholder}
+              alt="A dark elf wearing the Volkihar Knight armor with the logo overlaid on the image."
+              sizes={`(max-width: ${media.mobile}px) 500px, (max-width: ${media.tablet}px) 800px, 1000px`}
+            />
+          </ProjectSectionContent>
+        </ProjectSection>
+        <ProjectSection>
+          <ProjectSectionContent>
+            <Image
+              srcSet={[volkiharBook, volkiharBookLarge]}
+              placeholder={volkiharBookPlaceholder}
+              alt="A book containing a sketch depicting the logo and armor"
+              sizes={`(max-width: ${media.mobile}px) 90vw, (max-width: ${media.tablet}px) 80vw, 70vw`}
+            />
+          </ProjectSectionContent>
+        </ProjectSection>
+        <ProjectSection>
+          <ProjectSectionColumns>
+            <div className={styles.armor}>
+              <Armor alt="3D model of the Volkihar Knight armor" />
+            </div>
+            <div className={styles.textSection}>
+              <ProjectSectionHeading>Armor design</ProjectSectionHeading>
+              <ProjectSectionText>
+                As a player I noticed there weren’t any heavy armor options for the
+                Volkihar faction. This kinda sucks when you’ve specialised in heavy armor
+                and decide to join the faction and discover they all wear light armor.
+              </ProjectSectionText>
+              <ProjectSectionText>
+                My solution was to create a mod that combines meshes from the Volkihar
+                faction armor with heavy plate armor. The mod builds upon textures and
+                meshes from the base game, so it unifies with Skyrim’s overall aesthetic.
+                I combined and modified the meshes in 3DS Max. To establish a cohesive
+                design across the set, I edited existing textures, and designed custom
+                textures in Photoshop.
+              </ProjectSectionText>
+            </div>
+          </ProjectSectionColumns>
+        </ProjectSection>
+        <ProjectSection>
+          <ProjectSectionContent>
+            <div className={styles.logoContainer}>
+              <VolkiharKnightLogo
+                role="img"
+                aria-label="The Volkihar Knight logo, a monogram using the letters 'V' and 'K"
+              />
+            </div>
+            <ProjectTextRow center noMargin>
+              <ProjectSectionHeading>Identity design</ProjectSectionHeading>
+              <ProjectSectionText>
+                The monogram uses custom designed typography to get the right balance of
+                weight and angularity. I combined this with Trajan for the text, which is
+                also used for Skyrim’s game title wordmark.
+              </ProjectSectionText>
+            </ProjectTextRow>
+          </ProjectSectionContent>
+        </ProjectSection>
         <ProjectSection>
           <ProjectSectionContent>
             <Carousel
@@ -113,17 +187,20 @@ export function VolkiharKnight() {
                 sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 220px`}
                 style={{ maxWidth: 220, width: '100%', marginBottom: 30 }}
               />
-              <ProjectSectionHeading>AquinV1.1</ProjectSectionHeading>
+              <ProjectSectionHeading>Featured in Enderal</ProjectSectionHeading>
               <ProjectSectionText>
-                Coming Soon! Announcement will be out soon! While it comes out try AquinV1:
+                I was super stoked to have my work featured in the major standalone mod
+                Enderal, which won best fan creation at the game awards in 2016. Within
+                the game my armor design can be found being used for the Wandering Mage
+                armor set.
               </ProjectSectionText>
               <Button
                 secondary
                 iconHoverShift
                 icon="chevronRight"
-                href="https://aquin.app"
+                href="https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/"
               >
-                Try AquinV1
+                View on Steam
               </Button>
             </ProjectTextRow>
           </ProjectSectionContent>

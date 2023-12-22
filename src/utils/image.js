@@ -1,3 +1,7 @@
+/**
+ * Use the browser's image loading to load an image and
+ * grab the `src` it chooses from a `srcSet`
+ */
 export async function loadImageFromSrcSet({ src, srcSet, sizes }) {
   return new Promise((resolve, reject) => {
     const srcSetString = srcSetToString(srcSet);
@@ -35,6 +39,9 @@ export async function loadImageFromSrcSet({ src, srcSet, sizes }) {
   });
 }
 
+/**
+ * Convert a `srcSet` array to a plain old `srcSet` string
+ */
 export function srcSetToString(srcSet = []) {
   if (typeof srcSet === 'string') {
     return srcSet;
@@ -43,6 +50,9 @@ export function srcSetToString(srcSet = []) {
   return srcSet.map(item => `${item.src} ${item.width}w`).join(', ');
 }
 
+/**
+ * Generates a transparent png of a given width and height
+ */
 export async function generateImage(width = 1, height = 1) {
   return new Promise(resolve => {
     const canvas = document.createElement('canvas');
@@ -63,6 +73,9 @@ export async function generateImage(width = 1, height = 1) {
   });
 }
 
+/**
+ * Use native html image `srcSet` resolution for non-html images
+ */
 export async function resolveSrcFromSrcSet({ srcSet, sizes }) {
   const stringSrcSet = srcSetToString(srcSet);
 

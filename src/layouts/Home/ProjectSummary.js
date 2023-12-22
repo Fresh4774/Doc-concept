@@ -1,5 +1,6 @@
 import projectKatakana from 'assets/katakana-project.svg?url';
 import { Button } from 'components/Button';
+import { Divider } from 'components/Divider';
 import { Heading } from 'components/Heading';
 import { deviceModels } from 'components/Model/deviceModels';
 import { Section } from 'components/Section';
@@ -33,6 +34,7 @@ export const ProjectSummary = ({
   const titleId = `${id}-title`;
   const isMobile = width <= media.tablet;
   const svgOpacity = theme.themeId === 'light' ? 0.7 : 1;
+  const indexText = index < 10 ? `0${index}` : index;
   const phoneSizes = `(max-width: ${media.tablet}px) 30vw, 20vw`;
   const laptopSizes = `(max-width: ${media.tablet}px) 80vw, 40vw`;
 
@@ -54,6 +56,17 @@ export const ProjectSummary = ({
 
   const renderDetails = visible => (
     <div className={styles.details}>
+      <div aria-hidden className={styles.index}>
+        <Divider
+          notchWidth="64px"
+          notchHeight="8px"
+          collapsed={!visible}
+          collapseDelay={1000}
+        />
+        <span className={styles.indexNumber} data-visible={visible}>
+          {indexText}
+        </span>
+      </div>
       <Heading
         level={3}
         as="h2"

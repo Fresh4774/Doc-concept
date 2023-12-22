@@ -4,6 +4,7 @@ import profileImgPlaceholder from 'assets/profile-placeholder.jpg';
 import profileImg from 'assets/profile.jpg';
 import { Button } from 'components/Button';
 import { DecoderText } from 'components/DecoderText';
+import { Divider } from 'components/Divider';
 import { Heading } from 'components/Heading';
 import { Image } from 'components/Image';
 import { Link } from 'components/Link';
@@ -17,16 +18,19 @@ import styles from './Profile.module.css';
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
-      <DecoderText text="About Aquin" start={visible} delay={500} />
+      <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-    Meet Aquin, its the future project redefining possibilities.{' '}
-      <Link href="https://aquin.app">Try Now!</Link> Our mission is to transcend the ordinary and build the future through a spectrum of extraordinary ideas.
-      We strive to infuse productivity into every user experience.
+      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
+      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
+      animations, and icon illustration. Being comfortable with code allows me to rapidly
+      prototype and validate experiences. If you’re interested in the tools and software I
+      use check out my <Link href="/uses">uses page</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-    anticipate our imminent integration of cutting-edge AI tools into a single AI experience. Prepare for mind-bending search engines and upgraded AI models, promising an experience that exceeds expectations.
-      Join Aquin now and witness the evolution of tech at your fingertips!
+      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
+      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
+      about new projects, so feel free to drop me a line.
     </Text>
   </Fragment>
 );
@@ -55,23 +59,24 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 secondary
                 className={styles.button}
                 data-visible={visible}
-                href="/uses"
+                href="/contact"
                 icon="send"
               >
-                Whats in the latest update ?
-              </Button>
-              <br />
-              <Button
-                secondary
-                className={styles.button}
-                data-visible={visible}
-                href="/projects/volkihar-knight"
-                icon="send"
-              >
-                What coming ?
+                Send me a message
               </Button>
             </div>
             <div className={styles.column}>
+              <div className={styles.tag} aria-hidden>
+                <Divider
+                  notchWidth="64px"
+                  notchHeight="8px"
+                  collapsed={!visible}
+                  collapseDelay={1000}
+                />
+                <div className={styles.tagText} data-visible={visible}>
+                  About Me
+                </div>
+              </div>
               <div className={styles.image}>
                 <Image
                   reveal
