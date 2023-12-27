@@ -26,8 +26,8 @@ export const Uses = () => {
           opacity={0.7}
         />
         <ProjectHeader
-          title="AquinV1"
-          description="AquinV1 is going to be released on this Christmas! December 25, 2023, at 8:00 AM IST and it will bring 4 new features, including the introduction of Aquin's AI and Experimental features and users can expect a complete enhanced UI/UX."
+          title="AquinV1.1"
+          description="AquinV1.1 is going to be released in january 2024! it will a update to change and upgrade everything, it'll bring a tons of features to Aquin AI with full developed features and users can expect a complete enhanced UI/UX."
         />
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
@@ -36,90 +36,163 @@ export const Uses = () => {
               <ProjectSectionText as="div">
                 <List>
                   <ListItem>
-                    XD - AI bot with tons of AI tools integrated into one.
-                  </ListItem>
-                  <ListItem>
-                    Experimental Features.
+                    Aquin AI
                   </ListItem>
                 </List>
                 <br />
                 <Table>
                 <TableBody>
                   <TableRow>
-                    <TableHeadCell>AI Conversations</TableHeadCell>
-                    <TableCell>Text-based generative AI.</TableCell>
+                    <TableHeadCell>Music Generation</TableHeadCell>
+                    <TableCell>Generate Music</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Conversations management system</TableHeadCell>
-                    <TableCell>User-interface features to manage and handle your conversation easily.</TableCell>
+                    <TableHeadCell>Interruptible Speech</TableHeadCell>
+                    <TableCell>Interrupt AI while it talks on a call.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>TTS + STT</TableHeadCell>
-                    <TableCell>Text-to-speech and speech-to-text conversations.</TableCell>
+                    <TableHeadCell>AI Calls</TableHeadCell>
+                    <TableCell>Call AI and talk to your assistant with ease.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>File Interactions</TableHeadCell>
-                    <TableCell>PDF, Camera, text files, documents etc. files interactions with AI.</TableCell>
+                    <TableHeadCell>Improve Aquin AI</TableHeadCell>
+                    <TableCell>Use Aquin and help us improve on it!</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>User friendly UI/UX</TableHeadCell>
-                    <TableCell>A better UI/UX to make your experience better.</TableCell>
+                    <TableCell>A actual user friendly UI/UX to make your experience way better.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Image Generation</TableHeadCell>
-                    <TableCell>Image generative AI.</TableCell>
+                    <TableHeadCell>File Interactions</TableHeadCell>
+                    <TableCell>Interact with the AI with more file types.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>AI training modules</TableHeadCell>
-                    <TableCell>Help train our AI by using it!</TableCell>
+                    <TableHeadCell>Multi-Language Speech</TableHeadCell>
+                    <TableCell>Speak and hear any language.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Keyboard shortcuts</TableHeadCell>
-                    <TableCell>Use keyboard shortcuts for faster experiences.</TableCell>
+                    <TableHeadCell>Graph Generation</TableHeadCell>
+                    <TableCell>Generate Graphs</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>System texts</TableHeadCell>
-                    <TableCell>Know more about how the code works.</TableCell>
+                    <TableHeadCell>Improvements with image generation</TableHeadCell>
+                    <TableCell>Interactions with generated images.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Conversation duplications</TableHeadCell>
-                    <TableCell>Duplicate and branch your conversations from any text.</TableCell>
+                    <TableHeadCell>Call Summary Generation</TableHeadCell>
+                    <TableCell>Get summary of your calls with AI.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Conversation summarizer</TableHeadCell>
-                    <TableCell>Generate a summary of your conversations.</TableCell>
+                    <TableHeadCell>Question Tip Generation</TableHeadCell>
+                    <TableCell>Let Aquin suggest you questions to ask it.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>UI/UX customization settings</TableHeadCell>
-                    <TableCell>Customize how your app will look like.</TableCell>
+                    <TableHeadCell>Folders and conversations sorting features with more customizations options</TableHeadCell>
+                    <TableCell>Folder and files system to sort out conversations with more customizations options and settings.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Conversations diagrams generation</TableHeadCell>
                     <TableCell>Generate diagrams of your conversations and activity.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Multi-language AGI</TableHeadCell>
-                    <TableCell>Communicate in any language of your choice.</TableCell>
+                    <TableHeadCell>Generated Code Download</TableHeadCell>
+                    <TableCell>Download the generate code.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Multi art-style image generation</TableHeadCell>
-                    <TableCell>Generate various styled images.</TableCell>
+                    <TableHeadCell>Pin Messages</TableHeadCell>
+                    <TableCell>Pin important texts in your conversations.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Options between tons of AI models</TableHeadCell>
-                    <TableCell>Browse through tons of AI models to select your own.</TableCell>
+                    <TableHeadCell>AI Web Features</TableHeadCell>
+                    <TableCell>from visiting sites to browsing to searching and real time information, all web features.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Text management</TableHeadCell>
-                    <TableCell>User-interface features to manage and handle your texts easily.</TableCell>
+                    <TableHeadCell>Retry improvements difference showcase</TableHeadCell>
+                    <TableCell>When a user ask the AI to retry its reply then itll generate a difference showcase between its previous and new reply to show its improvements.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Link to summary</TableHeadCell>
-                    <TableCell>THIS IS A EXPERIMENTAL FEATURE.</TableCell>
+                    <TableHeadCell>Excel Interactions</TableHeadCell>
+                    <TableCell>Interact with excel sheets.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Drawing to AI art.</TableHeadCell>
-                    <TableCell>THIS IS A EXPERIMENTAL FEATURE.</TableCell>
+                    <TableHeadCell>Independent Browsing</TableHeadCell>
+                    <TableCell>Independent browsing features.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Discovery Achivements</TableHeadCell>
+                    <TableCell>Users will receive confetti for achievements while they discover the applications and its features</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Improvements with Drawing to AI Art</TableHeadCell>
+                    <TableCell>Improvements with Drawing to AI Art.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>PWA</TableHeadCell>
+                    <TableCell>You will be able to install Aquin!!!</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Side Window Usable</TableHeadCell>
+                    <TableCell>Put Aquin as a side window and make your day easier.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Latest Models</TableHeadCell>
+                    <TableCell>Stay fresh and improve with latest models.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Latest Versions</TableHeadCell>
+                    <TableCell>Stay fresh and improve with latest versions.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Improvements with YouTube Summarizer</TableHeadCell>
+                    <TableCell>Improvements with YouTube Summarizer.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Better TTS and STT</TableHeadCell>
+                    <TableCell>Improvements with Text-To-Speech and Speech-To-Text.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>New UI/UX</TableHeadCell>
+                    <TableCell>Meet a whole new UI/UX.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Improved Calls</TableHeadCell>
+                    <TableCell>Better and faster calls.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Animations</TableHeadCell>
+                    <TableCell>Animations always makes the experience better.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Cleanup improvements</TableHeadCell>
+                    <TableCell>Faster and better cleanup.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Summarizer improvements</TableHeadCell>
+                    <TableCell>Conversations Summarizer improvements.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Voice Continuation</TableHeadCell>
+                    <TableCell>Voice Continuation with speech-to-text.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Improvements with History</TableHeadCell>
+                    <TableCell>Improvements with history.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Input Improvements</TableHeadCell>
+                    <TableCell>A better input bar.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Scrolling Improvements</TableHeadCell>
+                    <TableCell>Scroll with ease.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Google Extension</TableHeadCell>
+                    <TableCell>Get Aquin as a google extension!!!</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Faster Responsiveness</TableHeadCell>
+                    <TableCell>Fast as Aquin.</TableCell>
                   </TableRow>
                 </TableBody>
               </Table>

@@ -33,10 +33,10 @@ import { media } from 'utils/style';
 
 const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Carousel));
 
-const title = 'AquinV1.1';
+const title = 'AquinV1.2';
 const description =
-  'AquinV1.1 announcement will be out soon!';
-const roles = ['New UI/UX', 'New Features', 'New Structure'];
+  'AquinV1.1 has been announced, so will we skip it ?';
+const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really New'];
 
 export function VolkiharKnight() {
   return (
@@ -113,17 +113,23 @@ export function VolkiharKnight() {
                 sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 220px`}
                 style={{ maxWidth: 220, width: '100%', marginBottom: 30 }}
               />
-              <ProjectSectionHeading>AquinV1.1</ProjectSectionHeading>
+              <ProjectSectionHeading>AquinV1.2</ProjectSectionHeading>
               <ProjectSectionText>
-                Coming Soon! Announcement will be out soon! While it comes out try AquinV1:
+              AquinV1.1 has been announced, so will we skip it ? While that happens try {" "}
+              <Button
+                secondary
+                href="https://aquin.app"
+              >
+                Try AquinV1
+              </Button>
               </ProjectSectionText>
               <Button
                 secondary
                 iconHoverShift
                 icon="chevronRight"
-                href="https://aquin.app"
+                href="https://aquindoc.vercel.app"
               >
-                Try AquinV1
+                Learn More
               </Button>
             </ProjectTextRow>
           </ProjectSectionContent>

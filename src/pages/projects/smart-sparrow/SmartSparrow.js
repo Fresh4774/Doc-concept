@@ -56,12 +56,12 @@ const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSectio
 
 const title = 'How?';
 const description =
-  'If you find Aquin challenging to navigate and are seeking clarity on its features or how to effectively utilize its functionalities, youll might find answers to all your queries over here.';
+  'If you find AquinV1 challenging to navigate and are seeking clarity on its features or how to effectively utilize its functionalities, youll might find answers to all your queries over here.';
 const roles = [
-  'How to open XD ?',
-  'How to try experimental features ?',
-  'How to generate images ?',
-  'How to use drawing to ai art ?',
+  'How to open XD in AquinV1 ?',
+  'How to try experimentals in AquinV1 ?',
+  'How to generate images in AquinV1 ?',
+  'How to use drawing to ai art in AquinV1 ?',
 ];
 
 export const SmartSparrow = () => {
