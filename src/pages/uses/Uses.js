@@ -55,10 +55,6 @@ export const Uses = () => {
                     <TableCell>Call AI and talk to your assistant with ease.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Improve Aquin AI</TableHeadCell>
-                    <TableCell>Use Aquin and help us improve on it!</TableCell>
-                  </TableRow>
-                  <TableRow>
                     <TableHeadCell>User friendly UI/UX</TableHeadCell>
                     <TableCell>A actual user friendly UI/UX to make your experience way better.</TableCell>
                   </TableRow>
@@ -81,10 +77,6 @@ export const Uses = () => {
                   <TableRow>
                     <TableHeadCell>Call Summary Generation</TableHeadCell>
                     <TableCell>Get summary of your calls with AI.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Question Tip Generation</TableHeadCell>
-                    <TableCell>Let Aquin suggest you questions to ask it.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Folders and conversations sorting features with more customizations options</TableHeadCell>
