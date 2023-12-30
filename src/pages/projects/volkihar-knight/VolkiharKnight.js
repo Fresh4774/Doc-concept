@@ -35,7 +35,7 @@ const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Car
 
 const title = 'AquinV1.2';
 const description =
-  'AquinV1.1 has been announced, so will we skip it ?';
+  'More is on its way!';
 const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really New'];
 
 export function VolkiharKnight() {
@@ -115,7 +115,7 @@ export function VolkiharKnight() {
               />
               <ProjectSectionHeading>AquinV1.2</ProjectSectionHeading>
               <ProjectSectionText>
-              AquinV1.1 has been announced, so will we skip it ? While that happens try {" "}
+              More is on its way, While you can try {" "}
               <Button
                 secondary
                 href="https://aquin.app"

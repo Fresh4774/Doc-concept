@@ -7,4 +7,4 @@ Something new and insane.
 
 ![Aquin](public/banner.png)
 
-This app is licensed under the License.
+This app is under a license.
