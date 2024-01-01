@@ -19,6 +19,10 @@ export const navLinks = [
     label: 'Soon',
     pathname: '/projects/volkihar-knight',
   },
+  {
+    label: 'Strange',
+    pathname: '/Strange',
+  },
 ];
 
 export const socialLinks = [
