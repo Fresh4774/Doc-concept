@@ -33,7 +33,7 @@ import { media } from 'utils/style';
 
 const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Carousel));
 
-const title = 'AquinV1.2';
+const title = 'Aquin x StudyCrew';
 const description =
   'More is on its way!';
 const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really New'];
@@ -64,8 +64,10 @@ export function VolkiharKnight() {
         <ProjectHeader
           title={title}
           description={description}
-          linkLabel="Try AquinV1"
+          linkLabel="AquinV1"
           url="https://aquin.app"
+          linkLabel2="StudyCrew"
+          url2="https://studycrew-homepage-preview.netlify.app/"
           roles={roles}
         />
         <ProjectSection>

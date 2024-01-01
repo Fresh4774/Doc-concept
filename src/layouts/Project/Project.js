@@ -17,6 +17,8 @@ export function ProjectHeader({
   description,
   linkLabel = 'Visit website',
   url,
+  linkLabel2 = 'Visit website',
+  url2,
   roles,
   className,
 }) {
@@ -42,6 +44,17 @@ export function ProjectHeader({
               href={url}
             >
               {linkLabel}
+            </Button>
+          )}
+          {!!url2 && (
+            <Button
+              secondary
+              iconHoverShift
+              className={styles.linkButton}
+              icon="chevronRight"
+              href={url2}
+            >
+              {linkLabel2}
             </Button>
           )}
         </div>

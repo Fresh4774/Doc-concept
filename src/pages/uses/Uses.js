@@ -44,11 +44,7 @@ export const Uses = () => {
                 <TableBody>
                   <TableRow>
                     <TableHeadCell>Music Generation</TableHeadCell>
-                    <TableCell>Generate Music</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Interruptible Speech</TableHeadCell>
-                    <TableCell>Interrupt AI while it talks on a call.</TableCell>
+                    <TableCell>Music Generator</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>AI Calls</TableHeadCell>
@@ -59,60 +55,20 @@ export const Uses = () => {
                     <TableCell>A actual user friendly UI/UX to make your experience way better.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>File Interactions</TableHeadCell>
-                    <TableCell>Interact with the AI with more file types.</TableCell>
-                  </TableRow>
-                  <TableRow>
                     <TableHeadCell>Multi-Language Speech</TableHeadCell>
                     <TableCell>Speak and hear any language.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Graph Generation</TableHeadCell>
-                    <TableCell>Generate Graphs</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Improvements with image generation</TableHeadCell>
                     <TableCell>Interactions with generated images.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Call Summary Generation</TableHeadCell>
-                    <TableCell>Get summary of your calls with AI.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Folders and conversations sorting features with more customizations options</TableHeadCell>
-                    <TableCell>Folder and files system to sort out conversations with more customizations options and settings.</TableCell>
-                  </TableRow>
-                  <TableRow>
                     <TableHeadCell>Conversations diagrams generation</TableHeadCell>
                     <TableCell>Generate diagrams of your conversations and activity.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Generated Code Download</TableHeadCell>
-                    <TableCell>Download the generate code.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Pin Messages</TableHeadCell>
-                    <TableCell>Pin important texts in your conversations.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>AI Web Features</TableHeadCell>
-                    <TableCell>from visiting sites to browsing to searching and real time information, all web features.</TableCell>
-                  </TableRow>
-                  <TableRow>
                     <TableHeadCell>Retry improvements difference showcase</TableHeadCell>
                     <TableCell>When a user ask the AI to retry its reply then itll generate a difference showcase between its previous and new reply to show its improvements.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Excel Interactions</TableHeadCell>
-                    <TableCell>Interact with excel sheets.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Independent Browsing</TableHeadCell>
-                    <TableCell>Independent browsing features.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Discovery Achivements</TableHeadCell>
-                    <TableCell>Users will receive confetti for achievements while they discover the applications and its features</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Improvements with Drawing to AI Art</TableHeadCell>
@@ -123,16 +79,8 @@ export const Uses = () => {
                     <TableCell>You will be able to install Aquin!!!</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Side Window Usable</TableHeadCell>
-                    <TableCell>Put Aquin as a side window and make your day easier.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Latest Models</TableHeadCell>
-                    <TableCell>Stay fresh and improve with latest models.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Latest Versions</TableHeadCell>
-                    <TableCell>Stay fresh and improve with latest versions.</TableCell>
+                    <TableHeadCell>Latest Models and Latest Versions</TableHeadCell>
+                    <TableCell>Stay fresh and improve with latest models and latest versions.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Improvements with YouTube Summarizer</TableHeadCell>
@@ -167,10 +115,6 @@ export const Uses = () => {
                     <TableCell>Voice Continuation with speech-to-text.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Improvements with History</TableHeadCell>
-                    <TableCell>Improvements with history.</TableCell>
-                  </TableRow>
-                  <TableRow>
                     <TableHeadCell>Input Improvements</TableHeadCell>
                     <TableCell>A better input bar.</TableCell>
                   </TableRow>
@@ -179,12 +123,24 @@ export const Uses = () => {
                     <TableCell>Scroll with ease.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Google Extension</TableHeadCell>
-                    <TableCell>Get Aquin as a google extension!!!</TableCell>
-                  </TableRow>
-                  <TableRow>
                     <TableHeadCell>Faster Responsiveness</TableHeadCell>
                     <TableCell>Fast as Aquin.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Single Tab Mode</TableHeadCell>
+                    <TableCell>Increases Safety.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Higher Security</TableHeadCell>
+                    <TableCell>Increased safety and security.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Censored AI</TableHeadCell>
+                    <TableCell>Increased safety and security.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Prompt Generator</TableHeadCell>
+                    <TableCell>Generates Prompts</TableCell>
                   </TableRow>
                 </TableBody>
               </Table>
