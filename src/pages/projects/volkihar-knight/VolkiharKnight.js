@@ -33,7 +33,7 @@ import { media } from 'utils/style';
 
 const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Carousel));
 
-const title = 'Aquin x StudyCrew';
+const title = 'AquinV1.2';
 const description =
   'More is on its way!';
 const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really New'];
@@ -64,10 +64,10 @@ export function VolkiharKnight() {
         <ProjectHeader
           title={title}
           description={description}
-          linkLabel="AquinV1"
+          linkLabel="Try AquinV1"
           url="https://aquin.app"
-          linkLabel2="StudyCrew"
-          url2="https://studycrew-homepage-preview.netlify.app/"
+          linkLabel2="Try Aquin V1.1"
+          url2="/Strange"
           roles={roles}
         />
         <ProjectSection>
@@ -115,14 +115,14 @@ export function VolkiharKnight() {
                 sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 220px`}
                 style={{ maxWidth: 220, width: '100%', marginBottom: 30 }}
               />
-              <ProjectSectionHeading>AquinV1.2</ProjectSectionHeading>
+              <ProjectSectionHeading>Aquin x StudyCrew</ProjectSectionHeading>
               <ProjectSectionText>
-              More is on its way, While you can try {" "}
+              We are exploring collaboration opportunities with {""}
               <Button
                 secondary
-                href="https://aquin.app"
+                href="https://studycrew.world/"
               >
-                Try AquinV1
+                StudyCrew
               </Button>
               </ProjectSectionText>
               <Button
