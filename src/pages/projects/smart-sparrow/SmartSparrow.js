@@ -109,12 +109,47 @@ export const SmartSparrow = () => {
         </ProjectSection>
         <ProjectSection>
           <ProjectTextRow>
-            <ProjectSectionHeading>AquinV1 Application</ProjectSectionHeading>
+            <ProjectSectionHeading>AquinV1.1 Application</ProjectSectionHeading>
             <ProjectSectionText>
-            AquinV1 is a PWA and it works seamlessly across all browsers. Upon launching the application, youll be directed to a login page offering multiple options, Google, X, GitHub, and Microsoft, for authentication. After successfully logging in, youll be guided to the home screen where you can choose between two options: _Im XD_ for opening the main XD bot or _I do experimentals_ to explore experimental features.
+            AquinV1 is a PWA and it works seamlessly across all browsers. Upon launching the application, youll be directly directed to a login page offering multiple options, Google, X, GitHub, and Microsoft, for authentication. After successfully logging in, youll get the access to Aquin AI and youll need a lot of time to explore its features.
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
+        <ThemeProvider themeId="dark" data-invert>
+          <ProjectSection
+            backgroundOverlayOpacity={0.5}
+            backgroundElement={
+              <Image
+                srcSet={[imageSprBackgroundVolcanism, imageSprBackgroundVolcanismLarge]}
+                placeholder={imageSprBackgroundVolcanismPlaceholder}
+                alt="A dramatic ocean scene with lava forming a new land mass."
+                sizes="100vw"
+              />
+            }
+          >
+            <ProjectSectionColumns width="full">
+              <ProjectSectionContent width="full">
+                <ProjectTextRow width="s">
+                  <ProjectSectionHeading>AI Calls</ProjectSectionHeading>
+                  <ProjectSectionText>
+                  You can now call Aquin AI! and communicate with realtime speech-to-text and text-to-speech functions, Aquin gives you the option to switch between tons of languages with its multi-language functions. Aquin also provides tons of voices to swtich from and settings to make your experience better!
+                  </ProjectSectionText>
+                </ProjectTextRow>
+              </ProjectSectionContent>
+              <Image
+                raised
+                className={styles.video}
+                srcSet={[
+                  { src: videoSprMotion, width: 1280 },
+                  { src: videoSprMotionLarge, width: 2560 },
+                ]}
+                placeholder={videoSprMotionPlaceholder}
+                alt="A learning designer building and deploying an interactive lesson on volcanism using the app."
+                sizes={`(max-width: ${media.mobile}px) 100vw, 50vw`}
+              />
+            </ProjectSectionColumns>
+          </ProjectSection>
+        </ThemeProvider>
         <ProjectSection light={isDark}>
           <ProjectSectionContent>
             <Image
@@ -133,9 +168,9 @@ export const SmartSparrow = () => {
               sizes="100vw"
             />
             <ProjectTextRow>
-              <ProjectSectionHeading>Experimental Features</ProjectSectionHeading>
+              <ProjectSectionHeading>Abracadabra Features</ProjectSectionHeading>
               <ProjectSectionText>
-              If you access the experimental features, youll the 2 main experimentals. Which are features like link summarization or transforming drawings into AI-generated art. but remember that these are experimental features, and their functionality may work and may not. Team Aquin is dedicatedly working to enhance these features.
+              Meet the abracadabra features! YouTube Summarizer + Prompt Generator + Drawing To AI Art.  Team Aquin is dedicatedly working to enhance these features daily!
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
@@ -159,9 +194,9 @@ export const SmartSparrow = () => {
               sizes="100vw"
             />
             <ProjectTextRow>
-              <ProjectSectionHeading>XD</ProjectSectionHeading>
+              <ProjectSectionHeading>Aquin AI</ProjectSectionHeading>
               <ProjectSectionText>
-              XD is the main bot, where you can start by just texting it. Try explore features such as speech-to-text, text-to-speech, camera utilization, attachment features and many more. Try navigating through the top bar to access diverse conversation management options and settings. You can also switch between conversation types. All features are represented by icons.
+              Meet Aquin AI, where you can start by just texting it. Try explore features such as speech-to-text, text-to-speech, camera utilization, attachment interactions and many more! Try navigating through the top bar to access diverse conversation management options and settings. You can also switch between conversation types. All features are represented by icons to make it more user friendly!
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
@@ -183,7 +218,7 @@ export const SmartSparrow = () => {
                 <ProjectTextRow width="s">
                   <ProjectSectionHeading>Switch Conversations</ProjectSectionHeading>
                   <ProjectSectionText>
-                  When you toggle between conversation types, youll find 3 options. First is Texter a generative text-based AI enabling a broad spectrum of interactions. Next, is Draw, a image generation AI, allowing you to experiment with various settings and try different image outcomes. Lastly, explore Reason + Act to gain deeper insights into XD.
+                  When you toggle between conversation types, youll find various options. You can mess around from a text based generative AI with tons of features to image generative AI to features like YouTube Summarizer, Prompt Generation or Drawing to AI Art.
                   </ProjectSectionText>
                 </ProjectTextRow>
               </ProjectSectionContent>
