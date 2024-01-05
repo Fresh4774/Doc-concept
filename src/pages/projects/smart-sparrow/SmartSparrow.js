@@ -18,9 +18,11 @@ import imageSprLessonBuilderDark from 'assets/spr-lesson-builder-dark.jpg';
 import imageSprLessonBuilderLightLarge from 'assets/spr-lesson-builder-light-large.jpg';
 import imageSprLessonBuilderLightPlaceholder from 'assets/spr-lesson-builder-light-placeholder.jpg';
 import imageSprLessonBuilderLight from 'assets/spr-lesson-builder-light.jpg';
-import videoSprMotionLarge from 'assets/spr-motion-large.mp4';
+import videoSprMotionLarge from 'assets/spr-motion.mp4';
 import videoSprMotionPlaceholder from 'assets/spr-motion-placeholder.jpg';
 import videoSprMotion from 'assets/spr-motion.mp4';
+import videoSprMotionLarge1 from 'assets/spr-motion1.mp4';
+import videoSprMotion1 from 'assets/spr-motion1.mp4';
 import imageSprSchema1DarkLarge from 'assets/spr-schema-1-dark-large.png';
 import imageSprSchema1DarkPlaceholder from 'assets/spr-schema-1-dark-placeholder.png';
 import imageSprSchema1Dark from 'assets/spr-schema-1-dark.png';
@@ -58,12 +60,12 @@ const title = 'How?';
 const description =
   'If you find AquinV1.1 challenging to use and are seeking clarity on its features or how to use its functionalities, youll find answers to all your queries over here.';
 const roles = [
-  'How to use in AquinV1.1 ?',
-  'How to call AI in AquinV1.1 ?',
-  'How to generate images in AquinV1.1 ?',
-  'How to use drawing to ai art in AquinV1.1 ?',
-  'How to generate prompts in AquinV1.1 ?',
-  'How to use YouTube summarizer in AquinV1.1 ?',
+  'How to use AquinV1.1 ?',
+  'How to call AI ?',
+  'How to generate images ?',
+  'How to use drawing to ai art ?',
+  'How to generate prompts ?',
+  'How to use YouTube summarizer ?',
 ];
 
 export const SmartSparrow = () => {
@@ -140,8 +142,8 @@ export const SmartSparrow = () => {
                 raised
                 className={styles.video}
                 srcSet={[
-                  { src: videoSprMotion, width: 1280 },
-                  { src: videoSprMotionLarge, width: 2560 },
+                  { src: videoSprMotion1, width: 1280 },
+                  { src: videoSprMotionLarge1, width: 2560 },
                 ]}
                 placeholder={videoSprMotionPlaceholder}
                 alt="A learning designer building and deploying an interactive lesson on volcanism using the app."
@@ -239,9 +241,9 @@ export const SmartSparrow = () => {
         <ProjectSection>
           <ProjectSectionContent>
             <ProjectTextRow>
-              <ProjectSectionHeading>Summarize Conversations</ProjectSectionHeading>
+              <ProjectSectionHeading>User-Friendly Settings</ProjectSectionHeading>
               <ProjectSectionText>
-              You can summarize your conversations. This feature allows you to summarize your conversations with the AI in a way that suits your needs. You select from a range of summarization types, which are brief summaries for a quick overview, detailed summaries for in-depth details, and open-ended actionable summaries.
+              With a tons of options you can customize your experience in various ways, from UI/UX settings to multi-language, voice, image generation. Just mess around and figure out your best Aquin settings!
               </ProjectSectionText>
             </ProjectTextRow>
             <Image

@@ -43,10 +43,6 @@ export const Uses = () => {
                 <Table>
                 <TableBody>
                   <TableRow>
-                    <TableHeadCell>Music Generation</TableHeadCell>
-                    <TableCell>Music Generator</TableCell>
-                  </TableRow>
-                  <TableRow>
                     <TableHeadCell>AI Calls</TableHeadCell>
                     <TableCell>Call AI and talk to your assistant with ease.</TableCell>
                   </TableRow>
