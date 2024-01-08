@@ -1,11 +1,7 @@
 export const navLinks = [
   {
-    label: 'Look',
-    pathname: '/#project-1',
-  },
-  {
-    label: 'About',
-    pathname: '/#details',
+    label: 'Main',
+    pathname: '/',
   },
   {
     label: 'AquinV1.1',
@@ -20,12 +16,17 @@ export const navLinks = [
     pathname: '/projects/volkihar-knight',
   },
   {
-    label: 'Strange',
-    pathname: '/Strange',
+    label: 'Zone',
+    pathname: 'https://aquinz.vercel.app',
   },
 ];
 
 export const socialLinks = [
+  {
+    label: 'Strange',
+    url: '/Strange',
+    icon: 'Strange',
+  },
   {
     label: 'X',
     url: 'https://twitter.com/itssAquin',
