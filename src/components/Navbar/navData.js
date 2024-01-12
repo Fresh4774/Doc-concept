@@ -17,7 +17,7 @@ export const navLinks = [
   },
   {
     label: 'Zone',
-    pathname: 'https://aquinz.vercel.app',
+    pathname: '/Zone',
   },
 ];
 
@@ -34,7 +34,7 @@ export const socialLinks = [
   },
   {
     label: 'Discord',
-    url: 'https://discord.com/invite/DhX7fBpp3W',
+    url: 'https://discord.gg/HfXbsufW9T',
     icon: 'Discord',
   },
   {
