@@ -12,11 +12,10 @@ import AquinZoneBG from '../../assets/AquinZoneBG.png';
 export const Zone = () => {
   const [visibleSections, setVisibleSections] = useState([]);
   const [, setScrollIndicatorHidden] = useState(false);
-  const projectN = useRef();
   const projectD = useRef();
 
   useEffect(() => {
-    const sections = [ projectN, projectD ];
+    const sections = [ projectD ];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -62,27 +61,6 @@ export const Zone = () => {
           description="Aquin Zone showcases cutting-edge creations. Explore these innovative applications for a sneak peek into exciting future developments before they become part of our main app or collaborations!"
         />
       </ProjectContainer>
-
-<ProjectSummary
-        id="project-1"
-        sectionRef={projectN}
-        visible={visibleSections.includes(projectN.current)}
-        index={1}
-        title="Notz"
-        description="Revolutionize note-taking with Aquin with features for maximum efficiency."
-        buttonText="Try Now"
-        buttonLink="/strange"
-        model={{
-          type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
-          textures: [
-            {
-              srcSet: [sprTexture, sprTextureLarge],
-              placeholder: sprTexturePlaceholder,
-            },
-          ],
-        }}
-      />
 
 <ProjectSummary
         id="project-1"
