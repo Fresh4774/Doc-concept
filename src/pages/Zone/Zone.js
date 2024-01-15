@@ -12,12 +12,11 @@ import AquinZoneBG from '../../assets/AquinZoneBG.png';
 export const Zone = () => {
   const [visibleSections, setVisibleSections] = useState([]);
   const [, setScrollIndicatorHidden] = useState(false);
-  const projectS = useRef();
   const projectN = useRef();
   const projectD = useRef();
 
   useEffect(() => {
-    const sections = [ projectS, projectN, projectD ];
+    const sections = [ projectN, projectD ];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -63,26 +62,6 @@ export const Zone = () => {
           description="Aquin Zone showcases cutting-edge creations. Explore these innovative applications for a sneak peek into exciting future developments before they become part of our main app or collaborations!"
         />
       </ProjectContainer>
-      <ProjectSummary
-        id="project-1"
-        sectionRef={projectS}
-        visible={visibleSections.includes(projectS.current)}
-        index={1}
-        title="Specific"
-        description="Transform your document interactions with Aquin. Upload files for personalized, efficient interactions with AI."
-        buttonText="Try Now"
-        buttonLink="/strange"
-        model={{
-          type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
-          textures: [
-            {
-              srcSet: [sprTexture, sprTextureLarge],
-              placeholder: sprTexturePlaceholder,
-            },
-          ],
-        }}
-      />
 
 <ProjectSummary
         id="project-1"
