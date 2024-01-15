@@ -14,11 +14,10 @@ export const Zone = () => {
   const [, setScrollIndicatorHidden] = useState(false);
   const projectS = useRef();
   const projectN = useRef();
-  const projectM = useRef();
   const projectD = useRef();
 
   useEffect(() => {
-    const sections = [ projectS, projectN, projectM, projectD ];
+    const sections = [ projectS, projectN, projectD ];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -92,27 +91,6 @@ export const Zone = () => {
         index={1}
         title="Notz"
         description="Revolutionize note-taking with Aquin with features for maximum efficiency."
-        buttonText="Try Now"
-        buttonLink="/strange"
-        model={{
-          type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
-          textures: [
-            {
-              srcSet: [sprTexture, sprTextureLarge],
-              placeholder: sprTexturePlaceholder,
-            },
-          ],
-        }}
-      />
-
-<ProjectSummary
-        id="project-1"
-        sectionRef={projectM}
-        visible={visibleSections.includes(projectM.current)}
-        index={1}
-        title="Maim"
-        description="Optimize your mail management with Aquin with a tons of features for seamless efficiency."
         buttonText="Try Now"
         buttonLink="/strange"
         model={{
