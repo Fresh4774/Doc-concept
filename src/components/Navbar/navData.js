@@ -15,10 +15,6 @@ export const navLinks = [
     label: 'Soon',
     pathname: '/projects/volkihar-knight',
   },
-  {
-    label: 'Zone',
-    pathname: '/Zone',
-  },
 ];
 
 export const socialLinks = [
