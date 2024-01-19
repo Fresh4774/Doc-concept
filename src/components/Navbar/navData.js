@@ -4,7 +4,7 @@ export const navLinks = [
     pathname: '/',
   },
   {
-    label: 'AquinV1.2',
+    label: 'AquinV1.3',
     pathname: '/uses',
   },
   {

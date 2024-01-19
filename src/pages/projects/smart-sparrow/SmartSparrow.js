@@ -58,9 +58,9 @@ const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSectio
 
 const title = 'How?';
 const description =
-  'If you find AquinV1.2 challenging to use and are seeking clarity on its features or how to use its functionalities, youll find answers to all your queries over here.';
+  'If you find AquinV1.3 challenging to use and are seeking clarity on its features or how to use its functionalities, youll find answers to all your queries over here.';
 const roles = [
-  'How to use AquinV1.2 ?',
+  'How to use AquinV1.3 ?',
   'How to call AI ?',
   'How to generate images ?',
   'How to use drawing to ai art ?',
@@ -86,7 +86,7 @@ export const SmartSparrow = () => {
           title={title}
           description={description}
           url="https://aquin.app"
-          linkLabel="Try AquinV1.2 Now"
+          linkLabel="Try AquinV1.3 Now"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -111,9 +111,9 @@ export const SmartSparrow = () => {
         </ProjectSection>
         <ProjectSection>
           <ProjectTextRow>
-            <ProjectSectionHeading>AquinV1.2 Application</ProjectSectionHeading>
+            <ProjectSectionHeading>AquinV1.3 Application</ProjectSectionHeading>
             <ProjectSectionText>
-            AquinV1.2 is a PWA and it works seamlessly across all browsers. Upon launching the application, youll be directly directed to a login page offering multiple options, Google, X, GitHub, and Microsoft, for authentication. After successfully logging in, youll get the access to Aquin AI and youll need a lot of time to explore its features.
+            AquinV1.3 is a PWA and it works seamlessly across all browsers. Upon launching the application, youll be directly directed to a login page offering multiple options, Google, X, GitHub, and Microsoft, for authentication. After successfully logging in, youll get the access to Aquin AI and youll need a lot of time to explore its features.
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
