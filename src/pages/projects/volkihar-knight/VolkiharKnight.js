@@ -33,7 +33,7 @@ import { media } from 'utils/style';
 
 const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Carousel));
 
-const title = 'Aquin-V1.5';
+const title = 'Aquin-V1.6';
 const description =
   'More is on its way!';
 const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really New'];
