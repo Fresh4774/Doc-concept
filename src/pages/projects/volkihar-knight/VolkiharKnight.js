@@ -33,7 +33,7 @@ import { media } from 'utils/style';
 
 const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Carousel));
 
-const title = 'Aquin-V1.7';
+const title = 'Aquin-V1.8';
 const description =
   'More is on its way!';
 const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really New'];
@@ -64,7 +64,7 @@ export function VolkiharKnight() {
         <ProjectHeader
           title={title}
           description={description}
-          linkLabel="Try Aquin-V1.6"
+          linkLabel="Try Aquin-V1.7"
           url="https://aquin.app"
           roles={roles}
         />
