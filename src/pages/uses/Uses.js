@@ -26,8 +26,8 @@ export const Uses = () => {
           opacity={0.7}
         />
         <ProjectHeader
-          title="Aquin-V1.8"
-          description="Aquin-V1.8 is has released on february 14 2024! it will a update to change and upgrade everything, it'll bring a tons of features to Aquin AI with full developed features and users can expect a complete enhanced UI/UX."
+          title="Aquin-V1.9"
+          description="Aquin-V1.9 is has released on february 19 2024! it will a update to change and upgrade everything, it'll bring a tons of features to Aquin AI with full developed features and users can expect a complete enhanced UI/UX."
         />
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
