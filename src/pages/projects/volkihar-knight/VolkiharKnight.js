@@ -1,11 +1,8 @@
 import volkiharBackgroundLarge from 'assets/volkihar-background-large.jpg';
-import volkiharBackgroundPlaceholder from 'assets/volkihar-background-placeholder.jpg';
 import volkiharBackground from 'assets/volkihar-background.jpg';
 import volkiharEnderalLarge from 'assets/volkihar-enderal-large.jpg';
 import volkiharEnderalLogoLarge from 'assets/volkihar-enderal-logo-large.png';
-import volkiharEnderalLogoPlaceholder from 'assets/volkihar-enderal-logo-placeholder.png';
 import volkiharEnderalLogo from 'assets/volkihar-enderal-logo.png';
-import volkiharEnderalPlaceholder from 'assets/volkihar-enderal-placeholder.jpg';
 import volkiharEnderal from 'assets/volkihar-enderal.jpg';
 import volkiharSlide1Large from 'assets/volkihar-slide-1-large.jpg';
 import volkiharSlide1 from 'assets/volkihar-slide-1.jpg';
@@ -13,7 +10,6 @@ import volkiharSlide2Large from 'assets/volkihar-slide-2-large.jpg';
 import volkiharSlide2 from 'assets/volkihar-slide-2.jpg';
 import volkiharSlide3Large from 'assets/volkihar-slide-3-large.jpg';
 import volkiharSlide3 from 'assets/volkihar-slide-3.jpg';
-import volkiharSlidePlaceholder from 'assets/volkihar-slide-placeholder.jpg';
 import { Button } from 'components/Button';
 import { Footer } from 'components/Footer';
 import { Image } from 'components/Image';
@@ -58,7 +54,6 @@ export function VolkiharKnight() {
       <ProjectContainer>
         <ProjectBackground
           srcSet={[volkiharBackground, volkiharBackgroundLarge]}
-          placeholder={volkiharBackgroundPlaceholder}
           opacity={0.5}
         />
         <ProjectHeader
@@ -71,7 +66,6 @@ export function VolkiharKnight() {
         <ProjectSection>
           <ProjectSectionContent>
             <Carousel
-              placeholder={volkiharSlidePlaceholder}
               images={[
                 {
                   srcSet: [volkiharSlide1, volkiharSlide1Large],
@@ -98,7 +92,6 @@ export function VolkiharKnight() {
           backgroundElement={
             <Image
               srcSet={[volkiharEnderal, volkiharEnderalLarge]}
-              placeholder={volkiharEnderalPlaceholder}
               alt="A promotional image from Enderal showing several characters in the game overlooking a distant city."
               sizes={`100vw`}
             />
@@ -108,7 +101,6 @@ export function VolkiharKnight() {
             <ProjectTextRow center centerMobile noMargin>
               <Image
                 srcSet={[volkiharEnderalLogo, volkiharEnderalLogoLarge]}
-                placeholder={volkiharEnderalLogoPlaceholder}
                 alt="The Enderal game logo"
                 sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 220px`}
                 style={{ maxWidth: 220, width: '100%', marginBottom: 30 }}

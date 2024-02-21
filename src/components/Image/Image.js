@@ -59,7 +59,6 @@ const ImageElements = ({
   loaded,
   inViewport,
   srcSet,
-  placeholder,
   delay,
   src,
   alt,
@@ -71,11 +70,9 @@ const ImageElements = ({
   ...rest
 }) => {
   const reduceMotion = useReducedMotion();
-  const [showPlaceholder, setShowPlaceholder] = useState(true);
   const [playing, setPlaying] = useState(!reduceMotion);
   const [videoSrc, setVideoSrc] = useState();
   const [videoInteracted, setVideoInteracted] = useState(false);
-  const placeholderRef = useRef();
   const videoRef = useRef();
   const isVideo = getIsVideo(src);
   const showFullRes = inViewport;
@@ -183,22 +180,6 @@ const ImageElements = ({
           alt={alt}
           sizes={sizes}
           {...rest}
-        />
-      )}
-      {showPlaceholder && (
-        <img
-          aria-hidden
-          className={styles.placeholder}
-          data-loaded={loaded}
-          style={cssProps({ delay: numToMs(delay) })}
-          ref={placeholderRef}
-          src={placeholder.src}
-          width={placeholder.width}
-          height={placeholder.height}
-          onTransitionEnd={() => setShowPlaceholder(false)}
-          decoding="async"
-          alt=""
-          role="presentation"
         />
       )}
     </div>

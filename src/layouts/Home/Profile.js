@@ -1,5 +1,4 @@
 import profileImgLarge from 'assets/profile-large.jpg';
-import profileImgPlaceholder from 'assets/profile-placeholder.jpg';
 import profileImg from 'assets/profile.jpg';
 import { Button } from 'components/Button';
 import { DecoderText } from 'components/DecoderText';
@@ -19,13 +18,13 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="About Aquin" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-    Meet Aquin, its the future project redefining possibilities.{' '}
-      <Link href="https://aquin.app">Try Now!</Link> Our mission is to transcend the ordinary and build the future through a spectrum of extraordinary ideas.
+    Meet Aquin, the future something redefining possibilities.{' '}
+      <Link href="https://aquin.app">Try Now!</Link> Aquin mission is to transcend the ordinary lifestyle and build the future through a spectrum of extraordinary possibilities.
       We strive to infuse productivity into every user experience.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
     anticipate our imminent integration of cutting-edge AI tools into a single AI experience. Prepare for mind-bending search engines and upgraded AI models, promising an experience that exceeds expectations.
-      Join Aquin now and witness the evolution of tech at your fingertips!
+      Join Aquin now and witness the evolution at your fingertips!
     </Text>
   </Fragment>
 );
@@ -75,7 +74,6 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 <Image
                   reveal
                   delay={100}
-                  placeholder={profileImgPlaceholder}
                   srcSet={[profileImg, profileImgLarge]}
                   sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
                   alt="Me standing in front of the Torii on Miyajima, an island off the coast of Hiroshima in Japan"
