@@ -1,7 +1,6 @@
 import { animate, useReducedMotion, useSpring } from 'framer-motion';
 import { useInViewport } from 'hooks';
 import {
-  createRef,
   startTransition,
   useCallback,
   useEffect,
@@ -365,7 +364,6 @@ const Device = ({
 }) => {
   const [loadDevice, setLoadDevice] = useState();
   const reduceMotion = useReducedMotion();
-  const placeholderScreen = createRef();
 
   useEffect(() => {
     const applyScreenTexture = async (texture, node) => {
@@ -388,8 +386,7 @@ const Device = ({
       let loadFullResTexture;
       let playAnimation;
 
-      const [placeholder, gltf] = await Promise.all([
-        await textureLoader.loadAsync(texture.placeholder.src),
+      const [gltf] = await Promise.all([
         await modelLoader.loadAsync(url),
       ]);
 
@@ -404,13 +401,6 @@ const Device = ({
         if (node.name === MeshType.Screen) {
           // Create a copy of the screen mesh so we can fade it out
           // over the full resolution screen texture
-          placeholderScreen.current = node.clone();
-          placeholderScreen.current.material = node.material.clone();
-          node.parent.add(placeholderScreen.current);
-          placeholderScreen.current.material.opacity = 1;
-          placeholderScreen.current.position.z += 0.001;
-
-          applyScreenTexture(placeholder, placeholderScreen.current);
 
           loadFullResTexture = async () => {
             const image = await resolveSrcFromSrcSet(texture);
@@ -418,10 +408,6 @@ const Device = ({
             await applyScreenTexture(fullSize, node);
 
             animate(1, 0, {
-              onUpdate: value => {
-                placeholderScreen.current.material.opacity = value;
-                renderFrame();
-              },
             });
           };
         }
