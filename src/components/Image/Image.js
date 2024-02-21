@@ -16,7 +16,6 @@ export const Image = ({
   raised,
   src: baseSrc,
   srcSet,
-  placeholder,
   ...rest
 }) => {
   const [loaded, setLoaded] = useState(false);
@@ -47,7 +46,6 @@ export const Image = ({
         reveal={reveal}
         src={src}
         srcSet={srcSet}
-        placeholder={placeholder}
         {...rest}
       />
     </div>
