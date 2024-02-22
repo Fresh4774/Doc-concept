@@ -102,7 +102,7 @@ export const SmartSparrow = () => {
             backgroundElement={
               <Image
                 srcSet={[imageSprBackgroundVolcanism, imageSprBackgroundVolcanismLarge]}
-                alt="A dramatic ocean scene with lava forming a new land mass."
+                alt="A dramatic Aquin scene with lava forming a new land mass."
                 sizes="100vw"
               />
             }
@@ -176,7 +176,7 @@ export const SmartSparrow = () => {
             backgroundElement={
               <Image
                 srcSet={[imageSprBackgroundVolcanism, imageSprBackgroundVolcanismLarge]}
-                alt="A dramatic ocean scene with lava forming a new land mass."
+                alt="A dramatic Aquin scene with lava forming a new land mass."
                 sizes="100vw"
               />
             }
@@ -208,7 +208,7 @@ export const SmartSparrow = () => {
             <ProjectTextRow>
               <ProjectSectionHeading>User-Friendly Settings</ProjectSectionHeading>
               <ProjectSectionText>
-              With a tons of options you can customize your experience in various ways, from UI/UX settings to multi-language, voice, image generation. Just mess around and figure out your best Aquin settings!
+              You can find tons of options to enhance and customize your experience in various ways, from UI/UX settings to multi-language, voice, image generation. Just mess around and figure out your best Aquin settings!
               </ProjectSectionText>
             </ProjectTextRow>
             <Image
@@ -229,10 +229,10 @@ export const SmartSparrow = () => {
             <ProjectSectionContent>
               <ProjectTextRow>
                 <ProjectSectionHeading>
-                  Features
+                  Menu Features
                 </ProjectSectionHeading>
                 <ProjectSectionText>
-                Discover many cool features! Play with different settings for dicovering new things. Try them all out! Aquin got a lot for you to explore!
+                Discover menu cool features! Play with different settings for dicovering new things. Try them all out! Aquin got a lot for you to explore!
                 </ProjectSectionText>
               </ProjectTextRow>
             </ProjectSectionContent>
@@ -272,49 +272,49 @@ export const SmartSparrow = () => {
               () => [
                 {
                   position: [0.54, 0.19, 0.18],
-                  text: 'Ocean',
+                  text: 'Aquin',
                   hidden: true,
                 },
                 {
                   position: [0.47, -0.38, 0.04],
-                  text: 'More Land',
+                  text: 'Aquin',
                   hidden: true,
                 },
                 {
                   position: [0.22, 0.44, -0.35],
-                  text: 'Land',
+                  text: 'Aquin',
                   hidden: true,
                 },
                 {
                   position: [0.16, -0.06, 0.58],
-                  text: 'More Islands',
+                  text: 'Aquin',
                   hidden: true,
                 },
                 {
                   position: [0.11, 0.2, -0.56],
-                  text: 'Land at Night',
+                  text: 'Aquin',
                   hidden: true,
                 },
                 {
                   position: [0.52, 0.2, -0.23],
-                  text: 'Islands',
+                  text: 'Aquin',
                   hidden: true,
                 },
                 {
                   position: [-0.24, 0.75, 0.24],
-                  text: 'Mantle',
+                  text: 'Aquin',
                   delay: 800,
                   hidden: true,
                 },
                 {
                   position: [-0.24, 0.55, 0.24],
-                  text: 'Outer core',
+                  text: 'Aquin',
                   delay: 800,
                   hidden: true,
                 },
                 {
                   position: [-0.24, 0.35, 0.24],
-                  text: 'Inner core',
+                  text: 'Aquin',
                   delay: 800,
                   hidden: true,
                 },
@@ -370,12 +370,12 @@ export const SmartSparrow = () => {
               camera={[1.17, 0.69, -1.47]}
               meshes={['Atmosphere', 'EarthFull']}
               labels={[
-                'Ocean',
-                'More Land',
-                'Land',
-                'More Islands',
-                'Land at Night',
-                'Islands',
+                'Aquin',
+                'Aquin',
+                'Aquin',
+                'Aquin',
+                'Aquin',
+                'Aquin',
               ]}
             >
               <ProjectSection>
@@ -396,19 +396,19 @@ export const SmartSparrow = () => {
               camera={[1.81, 0.51, 0.43]}
               meshes={['Atmosphere', 'EarthFull']}
               labels={[
-                'Ocean',
-                'More Land',
-                'Land',
-                'More Islands',
-                'Land at Night',
-                'Islands',
+                'Aquin',
+                'Aquin',
+                'Aquin',
+                'Aquin',
+                'Aquin',
+                'Aquin',
               ]}
             />
             <EarthSection
               animations={['0:loop']}
               camera={[0.37, 1.02, 1.84]}
               meshes={['EarthPartial', 'Chunk']}
-              labels={['Mantle', 'Outer core', 'Inner core']}
+              labels={['Aquin', 'Aquin', 'Aquin']}
             >
               <ProjectSection>
                 <ProjectSectionContent width="xl">
