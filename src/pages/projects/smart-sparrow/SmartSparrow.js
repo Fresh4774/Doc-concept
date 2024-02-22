@@ -144,7 +144,7 @@ export const SmartSparrow = () => {
             <ProjectTextRow>
               <ProjectSectionHeading>Abracadabra Features</ProjectSectionHeading>
               <ProjectSectionText>
-              Meet the abracadabra features! YouTube Summarizer + Prompt Generator + Drawing To AI Art.  Team Aquin is dedicatedly working to enhance these features daily!
+              Meet the new abracadabra features! YouTube Summarizer + Prompt Generator + Import Export.  Team Aquin is dedicatedly working to enhance these features daily!
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
@@ -163,9 +163,9 @@ export const SmartSparrow = () => {
               sizes="100vw"
             />
             <ProjectTextRow>
-              <ProjectSectionHeading>Aquin AI</ProjectSectionHeading>
+              <ProjectSectionHeading>Folders</ProjectSectionHeading>
               <ProjectSectionText>
-              Meet Aquin AI, where you can start by just texting it. Try explore features such as speech-to-text, text-to-speech, camera utilization, attachment interactions and many more! Try navigating through the top bar to access diverse conversation management options and settings. You can also switch between conversation types. All features are represented by icons to make it more user friendly!
+              Meet the new folder system, where you can start by just creating new chats and folders! Then you can explore, edit, sort your app! Try navigating through the folders while exploring diverse conversation management options and settings. You can also switch between conversation types within each chat!
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
@@ -184,9 +184,9 @@ export const SmartSparrow = () => {
             <ProjectSectionColumns width="full">
               <ProjectSectionContent width="full">
                 <ProjectTextRow width="s">
-                  <ProjectSectionHeading>Switch Conversations</ProjectSectionHeading>
+                  <ProjectSectionHeading>Multi-Task</ProjectSectionHeading>
                   <ProjectSectionText>
-                  When you toggle between conversation types, youll find various options. You can mess around from a text based generative AI with tons of features to image generative AI to features like YouTube Summarizer, Prompt Generation or Drawing to AI Art.
+                  Now you can toggle between upto 4 different windows with a whole different types. You can multi-task and use text based generation, image generations, code generations, many other utility features all at once!
                   </ProjectSectionText>
                 </ProjectTextRow>
               </ProjectSectionContent>
