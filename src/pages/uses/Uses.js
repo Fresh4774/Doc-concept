@@ -24,8 +24,8 @@ export const Uses = () => {
           opacity={0.7}
         />
         <ProjectHeader
-          title="Aquin-V1.9"
-          description="Aquin-V1.9 is has released on february 19 2024! it will a update to change and upgrade everything, it'll bring a tons of features to Aquin AI with full developed features and users can expect a complete enhanced UI/UX."
+          title="Aquin-V2"
+          description="Aquin-V2 has been released on March 4 2024, The first ever mega-update to change, upgrade everything, with tons of features, Team Aquin has dedicated each of their atoms into this update!"
         />
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
@@ -36,105 +36,124 @@ export const Uses = () => {
                   <ListItem>
                     Aquin AI
                   </ListItem>
+                  <ListItem>
+                    Bug Fixes ;)
+                  </ListItem>
                 </List>
                 <br />
                 <Table>
                 <TableBody>
                   <TableRow>
                     <TableHeadCell>AI Calls</TableHeadCell>
-                    <TableCell>Call AI and talk to your assistant with ease.</TableCell>
+                    <TableCell>Call Aquin and talk with ease.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>User friendly UI/UX</TableHeadCell>
-                    <TableCell>A actual user friendly UI/UX to make your experience way better.</TableCell>
+                    <TableHeadCell>A New Look</TableHeadCell>
+                    <TableCell>A brand new UI/UX.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Multi-Language Speech</TableHeadCell>
                     <TableCell>Speak and hear any language.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Improvements with image generation</TableHeadCell>
-                    <TableCell>Interactions with generated images.</TableCell>
+                    <TableHeadCell>New Alerts</TableHeadCell>
+                    <TableCell>Alerts before any important task.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Conversations diagrams generation</TableHeadCell>
-                    <TableCell>Generate diagrams of your conversations and activity.</TableCell>
+                    <TableHeadCell>New System</TableHeadCell>
+                    <TableCell>A new look to the AI system.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Retry improvements difference showcase</TableHeadCell>
-                    <TableCell>When a user ask the AI to retry its reply then itll generate a difference showcase between its previous and new reply to show its improvements.</TableCell>
+                    <TableHeadCell>/Commands</TableHeadCell>
+                    <TableCell>/Commands always make it faster.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Improvements with Drawing to AI Art</TableHeadCell>
-                    <TableCell>Improvements with Drawing to AI Art.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>PWA</TableHeadCell>
-                    <TableCell>You will be able to install Aquin!!!</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Latest Models and Latest Versions</TableHeadCell>
-                    <TableCell>Stay fresh and improve with latest models and latest versions.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Improvements with YouTube Summarizer</TableHeadCell>
-                    <TableCell>Improvements with YouTube Summarizer.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Better TTS and STT</TableHeadCell>
-                    <TableCell>Improvements with Text-To-Speech and Speech-To-Text.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>New UI/UX</TableHeadCell>
-                    <TableCell>Meet a whole new UI/UX.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Improved Calls</TableHeadCell>
-                    <TableCell>Better and faster calls.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Animations</TableHeadCell>
-                    <TableCell>Animations always makes the experience better.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Cleanup improvements</TableHeadCell>
-                    <TableCell>Faster and better cleanup.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Summarizer improvements</TableHeadCell>
-                    <TableCell>Conversations Summarizer improvements.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Voice Continuation</TableHeadCell>
-                    <TableCell>Voice Continuation with speech-to-text.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Input Improvements</TableHeadCell>
-                    <TableCell>A better input bar.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Scrolling Improvements</TableHeadCell>
-                    <TableCell>Scroll with ease.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Faster Responsiveness</TableHeadCell>
-                    <TableCell>Fast as Aquin.</TableCell>
+                    <TableHeadCell>TTS & STT</TableHeadCell>
+                    <TableCell>Improvements with Speech to text and text to speech.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Single Tab Mode</TableHeadCell>
-                    <TableCell>Increases Safety.</TableCell>
+                    <TableCell>Safety = High.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Higher Security</TableHeadCell>
-                    <TableCell>Increased safety and security.</TableCell>
+                    <TableHeadCell>Screenshare</TableHeadCell>
+                    <TableCell>Share your screen, communicate faster.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Censored AI</TableHeadCell>
-                    <TableCell>Increased safety and security.</TableCell>
+                    <TableHeadCell>YouTube Summarizer</TableHeadCell>
+                    <TableCell>Summarize YouTube videos from URLs.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>New Attachments</TableHeadCell>
+                    <TableCell>Attach, communicate, solve faster.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Image Generation</TableHeadCell>
+                    <TableCell>Generate Images</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Reply Diffrences</TableHeadCell>
+                    <TableCell>Watch how re-replies get better.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Prompt Generator</TableHeadCell>
-                    <TableCell>Generates Prompts</TableCell>
+                    <TableCell>Generate Prompts</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>News Page</TableHeadCell>
+                    <TableCell>Aquin Headlines + Fresh News!</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Import Export</TableHeadCell>
+                    <TableCell>Export, take anywhere, Import bring anywhere!</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Chat Diagrams</TableHeadCell>
+                    <TableCell>Know replies better.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Chat Folders</TableHeadCell>
+                    <TableCell>Folders = sorting = clean = user in ease.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Search Chats</TableHeadCell>
+                    <TableCell>Never let your chats get lost.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Chat Title Editing</TableHeadCell>
+                    <TableCell>Let Aquin name it or you name it.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Animations</TableHeadCell>
+                    <TableCell>It can always feel better.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Chat Summarizer</TableHeadCell>
+                    <TableCell>Summarize your chats.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Multi-Tasking Chats</TableHeadCell>
+                    <TableCell>Multi-Task with upto 4 windows.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Scrolling</TableHeadCell>
+                    <TableCell>Scroll better.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Faster</TableHeadCell>
+                    <TableCell>Everything must work fast.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>High Security</TableHeadCell>
+                    <TableCell>Security = Important 100%</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Censored</TableHeadCell>
+                    <TableCell>Censored = Better</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Voice Continuation</TableHeadCell>
+                    <TableCell>Dont stop speaking</TableCell>
                   </TableRow>
                 </TableBody>
               </Table>
