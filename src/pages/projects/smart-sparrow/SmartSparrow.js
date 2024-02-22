@@ -43,12 +43,12 @@ const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSectio
 
 const title = 'How?';
 const description =
-  'If you find Aquin-V1.9 challenging to use and are seeking clarity on its features or how to use its functionalities, youll find answers to all your queries over here.';
+  'If you find Aquin-V2 challenging to use and youre trying seeking clarity on how to use its features, youll hopefully find all your answers to all your queries over here.';
 const roles = [
-  'How to use Aquin-V1.9 ?',
+  'How to use Aquin-V2 ?',
   'How to call AI ?',
   'How to generate images ?',
-  'How to use drawing to ai art ?',
+  'How to make folders ?',
   'How to generate prompts ?',
   'How to use YouTube summarizer ?',
 ];
@@ -70,7 +70,7 @@ export const SmartSparrow = () => {
           title={title}
           description={description}
           url="https://aquin.app"
-          linkLabel="Try Aquin-V1.9 Now"
+          linkLabel="Try Aquin-V2 Now"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -90,9 +90,9 @@ export const SmartSparrow = () => {
         </ProjectSection>
         <ProjectSection>
           <ProjectTextRow>
-            <ProjectSectionHeading>Aquin-V1.9 Application</ProjectSectionHeading>
+            <ProjectSectionHeading>Aquin-V2 Application</ProjectSectionHeading>
             <ProjectSectionText>
-            Aquin-V1.9 is a PWA and it works seamlessly across all browsers. Upon launching the application, youll be directly directed to a login page offering multiple options, Google, X, GitHub, and Microsoft, for authentication. After successfully logging in, youll get the access to Aquin AI and youll need a lot of time to explore its features.
+            Aquin-V2 is a PWA and it works seamlessly across all browsers. Upon launching the application, youll be directly directed to the login page, offering multiple options, Google, X, GitHub, and Microsoft, for your registration. After successfully logging in, youll get the access to app and then you can start exploring its features.
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
@@ -112,7 +112,7 @@ export const SmartSparrow = () => {
                 <ProjectTextRow width="s">
                   <ProjectSectionHeading>AI Calls</ProjectSectionHeading>
                   <ProjectSectionText>
-                  You can now call Aquin AI! and communicate with realtime speech-to-text and text-to-speech functions, Aquin gives you the option to switch between tons of languages with its multi-language functions. Aquin also provides tons of voices to swtich from and settings to make your experience better!
+                  You can call Aquin! and communicate with realtime speech-to-text and text-to-speech, you also have the options to switch between languages with its multi-language functions. There are many voices to swtich from and settings to make your experience better.
                   </ProjectSectionText>
                 </ProjectTextRow>
               </ProjectSectionContent>
