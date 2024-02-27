@@ -43,9 +43,9 @@ const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSectio
 
 const title = 'How?';
 const description =
-  'If you find Aquin-V2 challenging to use and youre trying seeking clarity on how to use its features, youll hopefully find all your answers to all your queries over here.';
+  'If you find Aquin 2 challenging to use and youre trying seeking clarity on how to use its features, youll hopefully find all your answers to all your queries over here.';
 const roles = [
-  'How to use Aquin-V2 ?',
+  'How to use Aquin 2 ?',
   'How to call AI ?',
   'How to generate images ?',
   'How to make folders ?',
@@ -70,7 +70,7 @@ export const SmartSparrow = () => {
           title={title}
           description={description}
           url="https://aquin.app"
-          linkLabel="Try Aquin-V2 Now"
+          linkLabel="Try Aquin 2 Now"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -90,9 +90,9 @@ export const SmartSparrow = () => {
         </ProjectSection>
         <ProjectSection>
           <ProjectTextRow>
-            <ProjectSectionHeading>Aquin-V2 Application</ProjectSectionHeading>
+            <ProjectSectionHeading>Aquin 2 Application</ProjectSectionHeading>
             <ProjectSectionText>
-            Aquin-V2 is a PWA and it works seamlessly across all browsers. Upon launching the application, youll be directly directed to the login page, offering multiple options, Google, X, GitHub, and Microsoft, for your registration. After successfully logging in, youll get the access to app and then you can start exploring its features.
+            Aquin 2 is a PWA and it works seamlessly across all browsers. Upon launching the application, youll be directly directed to the login page, offering multiple options, Google, X, GitHub, and Microsoft, for your registration. After successfully logging in, youll get the access to app and then you can start exploring its features.
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>

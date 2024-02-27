@@ -59,7 +59,7 @@ export function VolkiharKnight() {
         <ProjectHeader
           title={title}
           description={description}
-          linkLabel="Try Aquin-V2"
+          linkLabel="Try Aquin 2"
           url="https://aquin.app"
           roles={roles}
         />
