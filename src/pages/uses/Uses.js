@@ -25,7 +25,7 @@ export const Uses = () => {
         />
         <ProjectHeader
           title="Aquin 2"
-          description="Aquin 2 has been released on March 4 2024, The first ever mega-update to change, upgrade everything, with tons of features, Team Aquin has dedicated each of their atoms into this update!"
+          description="Aquin 2 has been released on March 8 2024, The first ever mega-update to change, upgrade everything, with tons of features, Team Aquin has dedicated each of their atoms into this update!"
         />
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>

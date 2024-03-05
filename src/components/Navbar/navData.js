@@ -15,6 +15,10 @@ export const navLinks = [
     label: 'Soon',
     pathname: '/projects/volkihar-knight',
   },
+  {
+    label: 'Feedback',
+    pathname: 'https://docs.google.com/forms/d/e/1FAIpQLSfDmic5xNTq6thnWYnhmpN75dIjq4tn8hSIeKJMjAEB-C14_Q/viewform?usp=sf_link',
+  },
 ];
 
 export const socialLinks = [
