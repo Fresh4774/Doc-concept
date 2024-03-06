@@ -34,7 +34,7 @@ export const socialLinks = [
   },
   {
     label: 'Discord',
-    url: 'https://discord.gg/HfXbsufW9T',
+    url: 'https://discord.com/invite/4W9FBQsvbK',
     icon: 'Discord',
   },
   {
