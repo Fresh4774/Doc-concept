@@ -29,9 +29,9 @@ import { media } from 'utils/style';
 
 const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Carousel));
 
-const title = 'Aquin Live';
+const title = 'Aquin 2.1';
 const description =
-  'Maybe its an event, a live event ;)';
+  'Aquin 2.1? Already? well... Team Aquin has already started working it ;)';
 const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really New'];
 
 export function VolkiharKnight() {
@@ -105,15 +105,9 @@ export function VolkiharKnight() {
                 sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 220px`}
                 style={{ maxWidth: 220, width: '100%', marginBottom: 30 }}
               />
-              <ProjectSectionHeading>Aquin x StudyCrew</ProjectSectionHeading>
+              <ProjectSectionHeading>Aquin Live</ProjectSectionHeading>
               <ProjectSectionText>
-              We are exploring collaboration opportunities with {""}
-              <Button
-                secondary
-                href="https://studycrew.world/"
-              >
-                StudyCrew
-              </Button>
+              Team Aquin is working on a dynamic and inspiring keynote event, complemented by a series of engaging side activities. This gathering aims to captivate users with insightful talks, interactive workshops, and networking opportunities.{""}
               </ProjectSectionText>
               <Button
                 secondary
