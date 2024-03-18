@@ -17,7 +17,7 @@ export const navLinks = [
   },
   {
     label: 'Feedback',
-    pathname: 'https://docs.google.com/forms/d/e/1FAIpQLSfDmic5xNTq6thnWYnhmpN75dIjq4tn8hSIeKJMjAEB-C14_Q/viewform?usp=sf_link',
+    pathname: '/fb',
   },
 ];
 
