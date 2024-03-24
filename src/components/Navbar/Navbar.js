@@ -6,10 +6,9 @@ import { useAppContext, useScrollToHash, useWindowSize } from 'hooks';
 import RouterLink from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useRef, useState } from 'react';
-import { cssProps, media, msToNum, numToMs } from 'utils/style';
+import { cssProps, msToNum, numToMs } from 'utils/style';
 import { NavToggle } from './NavToggle';
 import styles from './Navbar.module.css';
-import { ThemeToggle } from './ThemeToggle';
 import { navLinks, socialLinks } from './navData';
 
 export const Navbar = () => {
@@ -20,7 +19,6 @@ export const Navbar = () => {
   const { route, asPath } = useRouter();
   const windowSize = useWindowSize();
   const headerRef = useRef();
-  const isMobile = windowSize.width <= media.mobile || windowSize.height <= 696;
   const scrollToHash = useScrollToHash();
 
   useEffect(() => {
@@ -38,7 +36,7 @@ export const Navbar = () => {
   // Handle swapping the theme when intersecting with inverse themed elements
   useEffect(() => {
     const navItems = document.querySelectorAll('[data-navbar-item]');
-    const inverseTheme = themeId === 'dark' ? 'light' : 'dark';
+    const inverseTheme = themeId === 'dark' ? 'dark' : 'dark';
     const { innerHeight } = window;
 
     let inverseMeasurements = [];
@@ -89,8 +87,7 @@ export const Navbar = () => {
       }
     };
 
-    // Currently only the light theme has dark full-width elements
-    if (themeId === 'light') {
+    if (themeId === 'dark') {
       navItemMeasurements = Array.from(navItems).map(item => {
         const rect = item.getBoundingClientRect();
 
@@ -179,11 +176,9 @@ export const Navbar = () => {
               </RouterLink>
             ))}
             <NavbarIcons />
-            <ThemeToggle isMobile />
           </nav>
         )}
       </Transition>
-      {!isMobile && <ThemeToggle data-navbar-item />}
     </header>
   );
 };

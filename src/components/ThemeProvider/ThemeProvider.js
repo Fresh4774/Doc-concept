@@ -108,10 +108,6 @@ export const tokenStyles = squish(`
   [data-theme='dark'] {
     ${createThemeProperties(theme.dark)}
   }
-
-  [data-theme='light'] {
-    ${createThemeProperties(theme.light)}
-  }
 `);
 
 export const fontStyles = squish(`
