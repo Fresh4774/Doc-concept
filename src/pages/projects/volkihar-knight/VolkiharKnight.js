@@ -31,7 +31,7 @@ const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Car
 
 const title = 'Aquin 2.1';
 const description =
-  'Aquin 2.1? Already? well... Team Aquin has already started working it ;)';
+  'Aquin 2.1? Already? well... Team Aquin has already started working on it ;) More patch updates are also coming soon!';
 const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really New'];
 
 export function VolkiharKnight() {
