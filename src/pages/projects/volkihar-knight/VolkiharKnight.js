@@ -31,7 +31,7 @@ const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Car
 
 const title = 'Aquin 2.1';
 const description =
-  'Aquin 2.1? Already? well... Team Aquin has already started working on it ;) More patch updates are also coming soon!';
+  'Aquin 2.1 will get released in April 2024.';
 const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really New'];
 
 export function VolkiharKnight() {
@@ -113,7 +113,7 @@ export function VolkiharKnight() {
                 secondary
                 iconHoverShift
                 icon="chevronRight"
-                href="https://aquindoc.vercel.app"
+                href="https://doc.aquin.app"
               >
                 Learn More
               </Button>
