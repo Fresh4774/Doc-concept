@@ -29,10 +29,10 @@ import { media } from 'utils/style';
 
 const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Carousel));
 
-const title = 'Aquin 2.1';
+const title = 'Aquin 2.2';
 const description =
-  'Aquin 2.1 will get released in April 2024.';
-const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really New'];
+  'Team Aquin is working towards Aquin 2.2 with every atom they got!';
+const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really Dynamic'];
 
 export function Soon() {
   return (
@@ -59,7 +59,7 @@ export function Soon() {
         <ProjectHeader
           title={title}
           description={description}
-          linkLabel="Try Aquin 2"
+          linkLabel="Try Aquin 2.1"
           url="https://aquin.app"
           roles={roles}
         />
@@ -105,9 +105,9 @@ export function Soon() {
                 sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 220px`}
                 style={{ maxWidth: 220, width: '100%', marginBottom: 30 }}
               />
-              <ProjectSectionHeading>Aquin Live</ProjectSectionHeading>
+              <ProjectSectionHeading>Aquin Support</ProjectSectionHeading>
               <ProjectSectionText>
-              Team Aquin is working on a dynamic and inspiring keynote event, complemented by a series of engaging side activities. This gathering aims to captivate users with insightful talks, interactive workshops, and networking opportunities.{""}
+              Team Aquin is working on a dynamic and inspiring system for users, in simple words a 24/7 Support by Aquin for any bug or issue.{""}
               </ProjectSectionText>
               <Button
                 secondary
