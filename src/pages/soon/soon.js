@@ -34,7 +34,7 @@ const description =
   'Aquin 2.1 will get released in April 2024.';
 const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really New'];
 
-export function VolkiharKnight() {
+export function Soon() {
   return (
     <Fragment>
       <style

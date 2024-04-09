@@ -5,15 +5,15 @@ export const navLinks = [
   },
   {
     label: 'Aquin2',
-    pathname: '/uses',
+    pathname: '/new',
   },
   {
     label: 'How?',
-    pathname: '/projects/smart-sparrow',
+    pathname: '/how',
   },
   {
     label: 'Soon',
-    pathname: '/projects/volkihar-knight',
+    pathname: '/soon',
   },
   {
     label: 'Feedback',

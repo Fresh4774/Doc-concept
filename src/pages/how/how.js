@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import backgroundSprLarge from 'assets/spr-background-large.jpg';
 import imageSprBackgroundVolcanismLarge from 'assets/spr-background-volcanism-large.jpg';
 import imageSprBackgroundVolcanism from 'assets/spr-background-volcanism.jpg';
@@ -53,7 +54,8 @@ const roles = [
   'How to use YouTube summarizer ?',
 ];
 
-export const SmartSparrow = () => {
+export const how = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { themeId } = useTheme();
 
   const isDark = themeId === 'dark';

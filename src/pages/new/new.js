@@ -15,7 +15,7 @@ import {
 import { Fragment } from 'react';
 import styles from './Uses.module.css';
 
-export const Uses = () => {
+export const New = () => {
   return (
     <Fragment>
       <ProjectContainer className={styles.uses}>

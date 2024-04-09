@@ -53,7 +53,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 secondary
                 className={styles.button}
                 data-visible={visible}
-                href="/uses"
+                href="/new"
                 icon="send"
               >
                 Whats in the latest update ?
@@ -63,7 +63,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 secondary
                 className={styles.button}
                 data-visible={visible}
-                href="/projects/volkihar-knight"
+                href="/soon"
                 icon="send"
               >
                 What coming ?
