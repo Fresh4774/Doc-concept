@@ -24,8 +24,8 @@ export const New = () => {
           opacity={0.7}
         />
         <ProjectHeader
-          title="Aquin 2"
-          description="Aquin 2 has been released on March 12 2024, The first ever mega-update to change, upgrade everything, with tons of features, Team Aquin has dedicated each of their atoms into this update! Team Aquin is also working on patch updates before the next big update!"
+          title="Aquin 2.1"
+          description="Aquin 2.1 will be released April 2024, It'll bring tons of bug fixes and new features, Team Aquin has dedicated each of their atoms into this update! Team Aquin is also working on patch updates before the next update!"
         />
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
@@ -44,24 +44,24 @@ export const New = () => {
                 <Table>
                 <TableBody>
                   <TableRow>
+                    <TableHeadCell>AI Research</TableHeadCell>
+                    <TableCell>Research, Explore, Upgrade AI Responses.</TableCell>
+                  </TableRow>
+                  <TableRow>
                     <TableHeadCell>AI Calls</TableHeadCell>
                     <TableCell>Call Aquin and talk with ease.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>A New Look</TableHeadCell>
-                    <TableCell>A brand new UI/UX.</TableCell>
+                    <TableHeadCell>UI/UX Updates</TableHeadCell>
+                    <TableCell>Updates to UI/UX.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Multi-Language Speech</TableHeadCell>
                     <TableCell>Speak and hear any language.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>New Alerts</TableHeadCell>
-                    <TableCell>Alerts before any important task.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>New System</TableHeadCell>
-                    <TableCell>A new look to the AI system.</TableCell>
+                    <TableHeadCell>AI Model Menu</TableHeadCell>
+                    <TableCell>Take a look at the status of the AI models.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>/Commands</TableHeadCell>
@@ -100,8 +100,8 @@ export const New = () => {
                     <TableCell>Generate Prompts</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>News Page</TableHeadCell>
-                    <TableCell>Aquin Headlines + Fresh News!</TableCell>
+                    <TableHeadCell>New Composer</TableHeadCell>
+                    <TableCell>A brand new composer for more ease and functions.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Import Export</TableHeadCell>
@@ -112,6 +112,10 @@ export const New = () => {
                     <TableCell>Know replies better.</TableCell>
                   </TableRow>
                   <TableRow>
+                    <TableHeadCell>Star Messages</TableHeadCell>
+                    <TableCell>Star/Pin/Save your important messages.</TableCell>
+                  </TableRow>
+                  <TableRow>
                     <TableHeadCell>Chat Folders</TableHeadCell>
                     <TableCell>Folders = sorting = clean = user in ease.</TableCell>
                   </TableRow>
@@ -120,11 +124,15 @@ export const New = () => {
                     <TableCell>Never let your chats get lost.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Chat Title Editing</TableHeadCell>
-                    <TableCell>Let Aquin name it or you name it.</TableCell>
+                    <TableHeadCell>Chat Search Filters</TableHeadCell>
+                    <TableCell>Sort and search your chats better.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Animations</TableHeadCell>
+                    <TableHeadCell>Chat Time Display</TableHeadCell>
+                    <TableCell>When was the last time you created/edited a chat?</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>New Animations</TableHeadCell>
                     <TableCell>It can always feel better.</TableCell>
                   </TableRow>
                   <TableRow>
@@ -136,8 +144,20 @@ export const New = () => {
                     <TableCell>Multi-Task with upto 4 windows.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Scrolling</TableHeadCell>
-                    <TableCell>Scroll better.</TableCell>
+                    <TableHeadCell>New Authentication System</TableHeadCell>
+                    <TableCell>More user benefits.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Voice Continuation</TableHeadCell>
+                    <TableCell>Dont stop speaking</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Within Conversation Features</TableHeadCell>
+                    <TableCell>More and more features within a chat.</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableHeadCell>Improvements with History</TableHeadCell>
+                    <TableCell>This might save your time.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Faster</TableHeadCell>
@@ -150,10 +170,6 @@ export const New = () => {
                   <TableRow>
                     <TableHeadCell>Censored</TableHeadCell>
                     <TableCell>Censored = Better</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Voice Continuation</TableHeadCell>
-                    <TableCell>Dont stop speaking</TableCell>
                   </TableRow>
                 </TableBody>
               </Table>
