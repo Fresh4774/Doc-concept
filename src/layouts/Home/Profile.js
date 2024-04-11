@@ -18,12 +18,12 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="About Aquin" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-    Meet Aquin, the future something redefining possibilities.{' '}
-      <Link href="https://aquin.app">Try Now!</Link> Aquin mission is to transcend the ordinary lifestyle and build the future through a spectrum of extraordinary possibilities.
-      We strive to infuse productivity into every user experience.
+    Meet Aquin, the future something, redefining possibilities.{' '}
+      <Link href="https://aquin.app">Try Now!</Link> Our mission is to transcend the ordinary lifestyle and build the future through a spectrum of extraordinary possibilities.
+      We strive to infuse productivity into every single user experience.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-    anticipate our imminent integration of cutting-edge AI tools into a single AI experience. Prepare for mind-bending search engines and upgraded AI models, promising an experience that exceeds expectations.
+    anticipate our imminent integration of cutting-edge AI tools into a single AI experience. Prepare for mind-bending search engines and next level AI models, promising an experience that exceeds expectations.
       Join Aquin now and witness the evolution at your fingertips!
     </Text>
   </Fragment>
@@ -56,7 +56,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 href="/new"
                 icon="send"
               >
-                Whats in the latest update ?
+                Whats in the latest update?
               </Button>
               <br />
               <Button
@@ -66,7 +66,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 href="/soon"
                 icon="send"
               >
-                What coming ?
+                What coming?
               </Button>
             </div>
             <div className={styles.column}>

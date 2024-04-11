@@ -132,6 +132,10 @@ export const New = () => {
                     <TableCell>When was the last time you created/edited a chat?</TableCell>
                   </TableRow>
                   <TableRow>
+                    <TableHeadCell>Loading Screen</TableHeadCell>
+                    <TableCell>It can always get better and better.</TableCell>
+                  </TableRow>
+                  <TableRow>
                     <TableHeadCell>New Animations</TableHeadCell>
                     <TableCell>It can always feel better.</TableCell>
                   </TableRow>
