@@ -112,9 +112,9 @@ export const how = () => {
             <ProjectSectionColumns width="full">
               <ProjectSectionContent width="full">
                 <ProjectTextRow width="s">
-                  <ProjectSectionHeading>AI Calls</ProjectSectionHeading>
+                  <ProjectSectionHeading>Voice Chats</ProjectSectionHeading>
                   <ProjectSectionText>
-                  You can call Aquin! and communicate with realtime speech-to-text and text-to-speech, you also have the options to switch between languages with its multi-language functions. There are many voices to swtich from and settings to make your experience better.
+                  Voice chats with Aquin! and communicate with realtime speech-to-text and text-to-speech, you also have the options to switch between languages with its multi-language functions. There are many voices to swtich from and settings to make your experience better.
                   </ProjectSectionText>
                 </ProjectTextRow>
               </ProjectSectionContent>
@@ -144,9 +144,9 @@ export const how = () => {
               sizes="100vw"
             />
             <ProjectTextRow>
-              <ProjectSectionHeading>Abracadabra Features</ProjectSectionHeading>
+              <ProjectSectionHeading>Aquin Space Features</ProjectSectionHeading>
               <ProjectSectionText>
-              Meet the new abracadabra features! YouTube Summarizer + Prompt Generator + Import Export.  Team Aquin is dedicatedly working to enhance these features daily!
+              Meet the new Aquin Space features! YouTube Summarizer + Prompt Generator and more features like Import Export.  Team Aquin is dedicatedly working to enhance these features daily!
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
