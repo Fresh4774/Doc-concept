@@ -165,9 +165,9 @@ export const how = () => {
               sizes="100vw"
             />
             <ProjectTextRow>
-              <ProjectSectionHeading>Folders</ProjectSectionHeading>
+              <ProjectSectionHeading>Summarize</ProjectSectionHeading>
               <ProjectSectionText>
-              Meet the new folder system, where you can start by just creating new chats and folders! Then you can explore, edit, sort your app! Try navigating through the folders while exploring diverse conversation management options and settings. You can also switch between conversation types within each chat!
+              Summarize lengthy conversations into concise summaries, enhance comprehension by presenting the main points and highlights of a conversation, streamline information retrieval, improve understanding, and boosts productivity.
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>

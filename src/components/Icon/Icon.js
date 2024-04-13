@@ -18,6 +18,7 @@ import Twitter from './svg/twitter.svg';
 import Youtube from '../../assets/youtube.svg';
 import Discord from '../../assets/discord.svg';
 import Strange from '../../assets/weird.svg';
+import Insta from './svg/Instagram.svg';
 
 export const icons = {
   arrowLeft: ArrowLeft,
@@ -37,7 +38,8 @@ export const icons = {
   twitter: Twitter,
   YouTube: Youtube,
   Discord: Discord,
-  Strange: Strange
+  Strange: Strange,
+  Instagram: Insta,
 };
 
 export const Icon = ({ icon, className, ...rest }) => {

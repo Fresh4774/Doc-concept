@@ -42,4 +42,9 @@ export const socialLinks = [
     url: 'https://www.youtube.com/@Aquin470',
     icon: 'YouTube',
   },
+  {
+    label: 'Instagram',
+    url: 'https://www.instagram.com/aquin.app/',
+    icon: 'Instagram',
+  },
 ];
