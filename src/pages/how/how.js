@@ -17,6 +17,7 @@ import videoSprMotionLarge1 from 'assets/spr-motion1.mp4';
 import videoSprMotion1 from 'assets/spr-motion1.mp4';
 import mindmap from 'assets/mindmap.png';
 import diagram from 'assets/diagram.png';
+import Research from 'assets/research.mp4';
 import imageSprSchema1DarkLarge from 'assets/spr-schema-1-dark-large.png';
 import imageSprSchema1Dark from 'assets/spr-schema-1-dark.png';
 import imageSprStoryboarderDarkLarge from 'assets/spr-storyboarder-dark-large.png';
@@ -153,6 +154,39 @@ export const how = () => {
             </ProjectTextRow>
           </ProjectSectionContent>
         </ProjectSection>
+        <ThemeProvider themeId="dark" data-invert>
+          <ProjectSection
+            backgroundOverlayOpacity={0.5}
+            backgroundElement={
+              <Image
+                srcSet={[imageSprBackgroundVolcanism, imageSprBackgroundVolcanismLarge]}
+                alt="A dramatic Aquin scene with lava forming a new land mass."
+                sizes="100vw"
+              />
+            }
+          >
+            <ProjectSectionColumns width="full">
+              <ProjectSectionContent width="full">
+                <ProjectTextRow width="s">
+                  <ProjectSectionHeading>Aquin Research</ProjectSectionHeading>
+                  <ProjectSectionText>
+                  Create a researched AI response that surpasses all previous outputs, pick a specific AI response in your conversation, then enter research mode to gather insights from up to 8 different generation tabs and different models. This diversity ensures a broad spectrum of ideas and perspectives, then employ one of four distinct combination methods, then finally youll receive the combined, refined and optimized researched final response. This response will excel in accuracy, depth, coherence, and relevance.
+                  </ProjectSectionText>
+                </ProjectTextRow>
+              </ProjectSectionContent>
+              <Image
+                raised
+                className={styles.video}
+                srcSet={[
+                  { src: Research, width: 1280 },
+                  { src: Research, width: 2560 },
+                ]}
+                alt="A learning designer building and deploying an interactive lesson on volcanism using the app."
+                sizes={`(max-width: ${media.mobile}px) 100vw, 50vw`}
+              />
+            </ProjectSectionColumns>
+          </ProjectSection>
+        </ThemeProvider>
         <ProjectSection>
           <ProjectSectionContent>
             <Image

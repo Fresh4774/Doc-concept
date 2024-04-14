@@ -75,7 +75,7 @@ export const Home = () => {
         index={1}
         title="Cool + Insane"
         description="This is something cool and insane."
-        buttonText="Try Now"
+        buttonText="Join Now"
         buttonLink="https://aquin.app"
         model={{
           type: 'laptop',
@@ -95,7 +95,7 @@ export const Home = () => {
         index={2}
         title="Accessible + Endless"
         description="This is something accessible from almost everywhere with endless things to try."
-        buttonText="Try Now"
+        buttonText="Join Now"
         buttonLink="https://aquin.app"
         model={{
           type: 'phone',
@@ -117,7 +117,7 @@ export const Home = () => {
         index={3}
         title="Revolutionary + Progressive"
         description="This is something revolutionary, which is progressing every second."
-        buttonText="Try Now"
+        buttonText="Join Now"
         buttonLink="https://aquin.app"
         model={{
           type: 'laptop',
