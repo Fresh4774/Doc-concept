@@ -21,12 +21,13 @@ export const navLinks = [
   },
 ];
 
-export const socialLinks = [
-  {
+{/*  {
     label: 'Strange',
     url: '/Strange',
     icon: 'Strange',
-  },
+  }, */}
+
+export const socialLinks = [
   {
     label: 'X',
     url: 'https://twitter.com/itssAquin',

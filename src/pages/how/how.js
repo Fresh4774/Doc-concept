@@ -15,6 +15,8 @@ import videoSprMotionLarge from 'assets/spr-motion.mp4';
 import videoSprMotion from 'assets/spr-motion.mp4';
 import videoSprMotionLarge1 from 'assets/spr-motion1.mp4';
 import videoSprMotion1 from 'assets/spr-motion1.mp4';
+import mindmap from 'assets/mindmap.png';
+import diagram from 'assets/diagram.png';
 import imageSprSchema1DarkLarge from 'assets/spr-schema-1-dark-large.png';
 import imageSprSchema1Dark from 'assets/spr-schema-1-dark.png';
 import imageSprStoryboarderDarkLarge from 'assets/spr-storyboarder-dark-large.png';
@@ -168,6 +170,38 @@ export const how = () => {
               <ProjectSectionHeading>Summarize</ProjectSectionHeading>
               <ProjectSectionText>
               Summarize lengthy conversations into concise summaries, enhance comprehension by presenting the main points and highlights of a conversation, streamline information retrieval, improve understanding, and boosts productivity.
+              </ProjectSectionText>
+            </ProjectTextRow>
+          </ProjectSectionContent>
+        </ProjectSection>
+        <ProjectSection>
+          <ProjectSectionContent>
+            <Image
+              raised
+              key={themeId}
+              srcSet={
+                isDark
+                  ? [mindmap, mindmap]
+                  : [mindmap, mindmap]
+              }
+              alt="The homepage of Experimental Features docs website linking to principles and components."
+              sizes="100vw"
+            />
+                        <Image
+              raised
+              key={themeId}
+              srcSet={
+                isDark
+                  ? [diagram, diagram]
+                  : [diagram, diagram]
+              }
+              alt="The homepage of Experimental Features docs website linking to principles and components."
+              sizes="100vw"
+            />
+            <ProjectTextRow>
+              <ProjectSectionHeading>Diagrams</ProjectSectionHeading>
+              <ProjectSectionText>
+              Visual representation of complex conversations, enhanced comprehension, especially for discussions involving multiple topics or interconnected ideas. Boosting users creativity and ideation by transforming textual discussions into graphical formats that stimulate brainstorming and problem-solving. Documentation and knowledge management by creating structured diagrams or mind maps that can be saved, shared, and revisited later.
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
