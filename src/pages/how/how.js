@@ -222,7 +222,7 @@ export const how = () => {
                 <ProjectTextRow width="s">
                   <ProjectSectionHeading>Multi-Task</ProjectSectionHeading>
                   <ProjectSectionText>
-                  Now you can toggle between upto 4 different windows with a whole different types. You can multi-task and use text based generation, image generations, code generations, many other utility features all at once!
+                  Toggle between upto 4 different windows with a whole different types. You can multi-task and use text based generation, image generations, code generations, many other utility features all at once!
                   </ProjectSectionText>
                 </ProjectTextRow>
               </ProjectSectionContent>
@@ -244,7 +244,7 @@ export const how = () => {
             <ProjectTextRow>
               <ProjectSectionHeading>User-Friendly Settings</ProjectSectionHeading>
               <ProjectSectionText>
-              You can find tons of options to enhance and customize your experience in various ways, from UI/UX settings to multi-language, voice, image generation. Just mess around and figure out your best Aquin settings!
+              There are tons of options to enhance and customize your experience in various ways, from UI/UX settings to multi-language, voice, image generation. Just mess around and figure out your best Aquin settings!
               </ProjectSectionText>
             </ProjectTextRow>
             <Image
@@ -268,7 +268,7 @@ export const how = () => {
                   Menu Features
                 </ProjectSectionHeading>
                 <ProjectSectionText>
-                Discover menu cool features! Play with different settings for dicovering new things. Try them all out! Aquin got a lot for you to explore!
+                Discover and try cool menu features! Play with different settings for dicovering new things. Try them all out! Aquin got a lot for you to explore!
                 </ProjectSectionText>
               </ProjectTextRow>
             </ProjectSectionContent>
@@ -369,10 +369,10 @@ export const how = () => {
                 <ProjectSectionContent>
                   <ProjectTextRow center>
                     <ProjectSectionHeading>
-                      The Next Generation of Technology
+                      The Next Generation
                     </ProjectSectionHeading>
                     <ProjectSectionText>
-                    Aquin stands out with its remarkable flexibility, welcoming users from all walks of life to explore the frontiers of the next generation of technology.
+                    Aquin stands out with its remarkable flexibility, welcoming users from all walks of life to live the next generation.
                     </ProjectSectionText>
                   </ProjectTextRow>
                 </ProjectSectionContent>
