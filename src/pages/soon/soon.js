@@ -29,9 +29,9 @@ import { media } from 'utils/style';
 
 const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Carousel));
 
-const title = 'Aquin 2.2';
+const title = 'Aquin 2.3';
 const description =
-  'Team Aquin is working towards Aquin 2.2 with every atom they got!';
+  'Team Aquin is working towards Aquin 2.3 with every atom they got!';
 const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really Dynamic'];
 
 export function Soon() {
@@ -59,7 +59,7 @@ export function Soon() {
         <ProjectHeader
           title={title}
           description={description}
-          linkLabel="Try Aquin 2.1"
+          linkLabel="Try Aquin 2.2"
           url="https://aquin.app"
           roles={roles}
         />

@@ -24,8 +24,8 @@ export const New = () => {
           opacity={0.7}
         />
         <ProjectHeader
-          title="Aquin 2.1"
-          description="Aquin 2.1 will be released April 2024, It'll bring tons of bug fixes and new features, Team Aquin has dedicated each of their atoms into this update! Team Aquin is also working on patch updates before the next update!"
+          title="Aquin 2.2"
+          description="Aquin 2.2 will be released 24th may 2024, this update brings tons of new features and bug fixes and improvements, Team Aquin has dedicated each of their atoms into this update! Team Aquin is also working on patch updates before the next update!"
         />
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
@@ -100,8 +100,8 @@ export const New = () => {
                     <TableCell>Generate Prompts</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>New Composer</TableHeadCell>
-                    <TableCell>A brand new composer for more ease and functions.</TableCell>
+                    <TableHeadCell>Aquin Offline Video Game</TableHeadCell>
+                    <TableCell>Entertain yourself until your wifi is back!</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Import Export</TableHeadCell>
@@ -132,12 +132,8 @@ export const New = () => {
                     <TableCell>When was the last time you created/edited a chat?</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Loading Screen</TableHeadCell>
-                    <TableCell>It can always get better and better.</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>New Animations</TableHeadCell>
-                    <TableCell>It can always feel better.</TableCell>
+                    <TableHeadCell>Notification Page</TableHeadCell>
+                    <TableCell>Check out all the news with notifies.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Chat Summarizer</TableHeadCell>
@@ -148,20 +144,16 @@ export const New = () => {
                     <TableCell>Multi-Task with upto 4 windows.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>New Authentication System</TableHeadCell>
-                    <TableCell>More user benefits.</TableCell>
-                  </TableRow>
-                  <TableRow>
                     <TableHeadCell>Voice Continuation</TableHeadCell>
                     <TableCell>Dont stop speaking</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Within Conversation Features</TableHeadCell>
-                    <TableCell>More and more features within a chat.</TableCell>
+                    <TableHeadCell>Cross-Platform</TableHeadCell>
+                    <TableCell>Use your account on any platform with all your chats.</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Improvements with History</TableHeadCell>
-                    <TableCell>This might save your time.</TableCell>
+                    <TableHeadCell>Cloud/Server Storage</TableHeadCell>
+                    <TableCell>Your chats are now saved!</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Faster</TableHeadCell>
