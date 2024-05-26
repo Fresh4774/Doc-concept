@@ -42,13 +42,10 @@ All rights reserved.
 - Aquin was started to be developed on 10/07/2024, it was specifically made as a utility and productive application, the AI was originally known as **XD** and later renamed as **Aquin AI** or simply **Aquin**, then the first release of Aquin after prototype versions was made in **Nov 30, 2023**, and then updated continuously, in decimal versions, Aquin 2.0 was released in **Mar 12, 2024** with bunch of updates, Until this day as of **May 5, 2024** (Version **2.1.4**) the current version of Aquin. **Team Aquin** and **Team Aquin Theory**(contributors) is working hard towards deploying the next versions!
 
 ## Team Aquin
-- Founder aka Janitor aka Cook: [Friction](https://github.com/Fresh4774)
-- Co-Founder aka Manager: [Pcannon](https://github.com/pcannon09)
-- Co-Founder aka Developer: [Sambhav](https://github.com/Sammmy22)
-- Co-Founder aka Developer: [Speedy](https://github.com/bananabananacs)
-
-**Team Aquin Theory(Contributers)**
-- Game Developer: [Nova](https://example.com)
+- Founder and CEO: [Friction](https://github.com/Fresh4774)
+- Co-Founder: [Pcannon](https://github.com/pcannon09)
+- Co-Founder: [Sambhav](https://github.com/Sammmy22)
+- Co-Founder: [Speedy](https://github.com/bananabananacs)
 
 ## Tech-Stack 
 <div>  

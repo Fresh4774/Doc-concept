@@ -105,9 +105,9 @@ export function Soon() {
                 sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 220px`}
                 style={{ maxWidth: 220, width: '100%', marginBottom: 30 }}
               />
-              <ProjectSectionHeading>Aquin Offline Game</ProjectSectionHeading>
+              <ProjectSectionHeading>The Box Game</ProjectSectionHeading>
               <ProjectSectionText>
-              Team Aquin is working on a dynamic and entertaining offline game for users.{""}
+              Team Aquin is working on a dynamic and entertaining game for users.{""}
               </ProjectSectionText>
               <Button
                 secondary
