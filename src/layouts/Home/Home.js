@@ -12,6 +12,7 @@ import { Profile } from 'layouts/Home/Profile';
 import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
+import { Team } from './team';
 
 const disciplines = ['Cool', 'Insane', 'Accessible', 'Endless', 'Revolutionary', 'Progressive'];
 
@@ -130,6 +131,11 @@ export const Home = () => {
         }}
       />
       <Profile
+        sectionRef={details}
+        visible={visibleSections.includes(details.current)}
+        id="details"
+      />
+      <Team
         sectionRef={details}
         visible={visibleSections.includes(details.current)}
         id="details"
