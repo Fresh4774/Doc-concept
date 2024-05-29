@@ -12,7 +12,7 @@ import { Profile } from 'layouts/Home/Profile';
 import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
-import { Team } from './team';
+import { Team } from './Team';
 
 const disciplines = ['Cool', 'Insane', 'Accessible', 'Endless', 'Revolutionary', 'Progressive'];
 
