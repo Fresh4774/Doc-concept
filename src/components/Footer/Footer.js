@@ -9,8 +9,8 @@ export const Footer = ({ className }) => (
       <span className={styles.date}>
         {`© ${new Date().getFullYear()} Aquin`}
       </span>
-      <Link secondary className={styles.link} href="https://aquin.app" target="_self">
-        LICENSE
+      <Link secondary className={styles.link} href="/cookiepolicy" target="_self">
+        COOKIE POLICY
       </Link>
     </Text>
   </footer>
