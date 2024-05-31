@@ -9,6 +9,13 @@ export const Footer = ({ className }) => (
       <span className={styles.date}>
         {`© ${new Date().getFullYear()} Aquin`}
       </span>
+      <br />
+      <br />
+      <Link secondary className={styles.link} href="/privacypolicy" target="_self">
+        PRIVACY POLICY
+      </Link>
+      <br />
+      <br />
       <Link secondary className={styles.link} href="/cookiepolicy" target="_self">
         COOKIE POLICY
       </Link>

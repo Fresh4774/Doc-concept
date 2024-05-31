@@ -14,6 +14,7 @@
 
 .link {
   display: inline-flex;
+  padding-right: var(--spaceXS); 
 }
 
 .date {

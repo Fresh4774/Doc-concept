@@ -1,0 +1,60 @@
+.uses {
+  --maxWidthL: var(--maxWidthM);
+}
+
+.section {
+  opacity: 0;
+  padding-top: var(--space2XL);
+  padding-bottom: var(--space2XL);
+  margin-top: var(--space2XL);
+
+  &:global {
+    animation: fadeIn 1s ease 1s forwards;
+  }
+
+  & + & {
+    margin-top: 0;
+  }
+}
+
+.uses {
+  padding: 2rem;
+}
+
+.privacypolicy {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.privacypolicy h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.privacypolicy h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.privacypolicy p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.privacypolicy ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+.privacypolicy li {
+  margin-bottom: 0.5rem;
+}
+
+.privacypolicy strong {
+  font-weight: bold;
+}
+
