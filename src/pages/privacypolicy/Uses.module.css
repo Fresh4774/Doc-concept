@@ -29,6 +29,11 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.privacypolicy h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
 .privacypolicy h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -47,6 +52,10 @@
 
 .privacypolicy ul {
   list-style-type: disc;
+  margin-left: 2rem;
+}
+
+.privacypolicy ol {
   margin-left: 2rem;
 }
 

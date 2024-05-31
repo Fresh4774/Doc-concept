@@ -11,7 +11,7 @@ export const cookiepolicy = () => {
     <Fragment>
       <ProjectContainer className={styles.uses}>
       <div className={styles.cookiePolicy}>
-          <h2>Cookie Policy</h2>
+          <h1>Cookie Policy</h1>
           <p>Last updated May 30, 2024</p>
 
           <p>
