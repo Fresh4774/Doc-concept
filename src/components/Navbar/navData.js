@@ -16,7 +16,7 @@ export const navLinks = [
     pathname: '/soon',
   },
   {
-    label: 'Feedback',
+    label: 'Forms',
     pathname: '/fb',
   },
 ];

@@ -30,6 +30,17 @@ export const fb = () => {
             </ProjectTextRow>
           </ProjectSectionContent>
         </ProjectSection>
+        <ProjectHeader
+          title="Query"
+          description="Thank you for choosing Aquin! Your queries are incredibly valuable to us as we strive to create an extraordinary user experience and ease to our users. Please take a few moments to share your queries freely about Aquin."
+        />
+                <ProjectSection padding="none" className={styles.section}>
+          <ProjectSectionContent>
+            <ProjectTextRow>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfvQ-rXrTsL6Yt_8htHrMy60-hLHDY_7qU8qW8t-JPBXUoTgA/viewform?embedded=true" width="640" height="1100" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+            </ProjectTextRow>
+          </ProjectSectionContent>
+        </ProjectSection>
       </ProjectContainer>
       <Footer />
     </Fragment>
