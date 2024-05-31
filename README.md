@@ -3,18 +3,18 @@
 **Something Cool and Insane.**
 
 - **App**: [https://aquin.app](https://aquin.app)
-- **Documentation**: [https://aquindoc.vercel.app](https://doc.aquin.app)
+- **Documentation**: [https://doc.aquin.app](https://doc.aquin.app)
 
-<a href="https://twitter.com/itssAquin" target="_blank">
+<a href="https://twitter.com/AquinF03" target="_blank">
 <img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
 </a>
-<a href="https://www.instagram.com/aquin.app/" target="_blank">
+<a href="https://www.instagram.com/aquinf03" target="_blank">
 <img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
 </a>
-<a href="https://www.youtube.com/@Aquin470" target="_blank">
+<a href="https://www.youtube.com/@AquinF03" target="_blank">
 <img src=https://img.shields.io/badge/youtube-%23EE4831.svg?&style=for-the-badge&logo=youtube&logoColor=white alt=youtube style="margin-bottom: 5px;" />
 </a>  
-<a href="https://discord.com/invite/4W9FBQsvbK" target="_blank">
+<a href="https://discord.gg/suhwwzuAaX" target="_blank">
 <img src=https://img.shields.io/badge/discord-%237289da.svg?&style=for-the-badge&logo=discord&logoColor=white alt=discord style="margin-bottom: 5px;" />
 </a>  
 
@@ -28,13 +28,16 @@ Meet Aquin, the future something, redefining possibilities. Try Now! Our mission
 
 <br/>  
 
-![Aquin](banner.png)
+![Aquin](public/banner.png)
 
 Copyright Aquin [2024]
 <br/>
 All rights reserved.
 <br/>
 [License for Aquin.](/licence)
+<br/>
+<br/>
+[Cookie Policy for Aquin.](https://doc.aquin.app/cookiepolicy)
 <br/>
 <br/>
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)

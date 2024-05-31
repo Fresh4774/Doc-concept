@@ -30,22 +30,22 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'X',
-    url: 'https://twitter.com/itssAquin',
+    url: 'https://twitter.com/AquinF03',
     icon: 'twitter',
   },
   {
     label: 'Discord',
-    url: 'https://discord.com/invite/4W9FBQsvbK',
+    url: 'https://discord.gg/suhwwzuAaX',
     icon: 'Discord',
   },
   {
     label: 'YouTube',
-    url: 'https://www.youtube.com/@Aquin470',
+    url: 'https://www.youtube.com/@AquinF03',
     icon: 'YouTube',
   },
   {
     label: 'Instagram',
-    url: 'https://www.instagram.com/aquin.app/',
+    url: 'https://www.instagram.com/aquinf03',
     icon: 'Instagram',
   },
 ];
