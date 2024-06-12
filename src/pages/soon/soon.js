@@ -31,7 +31,7 @@ const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Car
 
 const title = 'Aquin 2.3';
 const description =
-  'Team Aquin is working towards Aquin 2.3 with every atom they got!';
+  'Team Aquin is working towards Aquin 2.3 with every atom they have!';
 const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really Dynamic'];
 
 export function Soon() {
@@ -92,7 +92,7 @@ export function Soon() {
           backgroundElement={
             <Image
               srcSet={[volkiharEnderal, volkiharEnderalLarge]}
-              alt="A promotional image from Enderal showing several characters in the game overlooking a distant city."
+              alt="Aquin"
               sizes={`100vw`}
             />
           }
@@ -105,9 +105,9 @@ export function Soon() {
                 sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 220px`}
                 style={{ maxWidth: 220, width: '100%', marginBottom: 30 }}
               />
-              <ProjectSectionHeading>The Box Game</ProjectSectionHeading>
+              <ProjectSectionHeading>Aquin in Microsoft Store</ProjectSectionHeading>
               <ProjectSectionText>
-              Team Aquin is working on a dynamic and entertaining game for users.{""}
+              Team Aquin is working towards a dynamic release on microsoft store!{""}
               </ProjectSectionText>
               <Button
                 secondary

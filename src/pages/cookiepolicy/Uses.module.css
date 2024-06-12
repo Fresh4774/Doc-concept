@@ -26,7 +26,6 @@
   margin: 0 auto;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .cookiePolicy h1 {
@@ -40,14 +39,14 @@
 }
 
 .cookiePolicy h3 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
 .cookiePolicy p {
-  line-height: 1.6;
-  margin-bottom: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
 }
 
 .cookiePolicy ul {
@@ -57,9 +56,5 @@
 
 .cookiePolicy li {
   margin-bottom: 0.5rem;
-}
-
-.cookiePolicy strong {
-  font-weight: bold;
 }
 

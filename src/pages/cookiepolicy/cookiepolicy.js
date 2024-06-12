@@ -68,7 +68,7 @@ perform are described in the table below (please note that the specific cookies 
 depending on the specific Online Properties you visit):
           </p>
 
-          <h4>Unclasified Cookies:</h4>
+          <h4><u>Unclasified Cookies:</u></h4>
           <br />
           <p>These are cookies that have not yet been categorized. We are in the process of classifying these
 cookies with the help of their providers.</p>
