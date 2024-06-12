@@ -8,7 +8,7 @@ import volkiharSlide1 from 'assets/ex.png';
 import volkiharBackgroundLarge2 from 'assets/bot-large.png';
 import volkiharSlide2 from 'assets/bot.png';
 import imageSprLessonBuilderDarkLarge from 'assets/spr-lesson-builder-dark-large.jpg';
-import imageSprLessonBuilderDark from 'assets/spr-lesson-builder-dark.jpg';
+import imageSprLessonBuilderDark from 'assets/spr-lesson-builder-light.jpg';
 import imageSprLessonBuilderLightLarge from 'assets/spr-lesson-builder-light-large.jpg';
 import imageSprLessonBuilderLight from 'assets/spr-lesson-builder-light.jpg';
 import videoSprMotionLarge from 'assets/spr-motion.mp4';
