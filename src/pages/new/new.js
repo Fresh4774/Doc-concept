@@ -24,8 +24,8 @@ export const New = () => {
           opacity={0.7}
         />
         <ProjectHeader
-          title="Aquin 2.2"
-          description="Aquin 2.2 will be released 24th may 2024, this update brings tons of new features and bug fixes and improvements, Team Aquin has dedicated each of their atoms into this update! Team Aquin is also working on patch updates before the next update!"
+          title="Aquin 2.3"
+          description="Aquin 2.3 will be released 24th may 2024, this update brings tons of new features and bug fixes and improvements, Team Aquin has dedicated each of their atoms into this update! Team Aquin is also working on patch updates before the next update!"
         />
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
@@ -132,8 +132,8 @@ export const New = () => {
                     <TableCell>When was the last time you created/edited a chat?</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Notification Page</TableHeadCell>
-                    <TableCell>Check out all the news with notifies.</TableCell>
+                    <TableHeadCell>Inbox Page</TableHeadCell>
+                    <TableCell>Check out all the notifications.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Chat Summarizer</TableHeadCell>

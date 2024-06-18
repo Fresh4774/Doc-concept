@@ -47,9 +47,9 @@ const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSectio
 
 const title = 'How?';
 const description =
-  'If you find Aquin 2.2 challenging to use and youre trying seeking clarity on how to use its features, youll find all your answers to all your queries over here.';
+  'If you find Aquin 2.3 challenging to use and youre trying seeking clarity on how to use its features, youll find all your answers to all your queries over here.';
 const roles = [
-  'How to use Aquin 2.2?',
+  'How to use Aquin 2.3?',
   'How to call AI?',
   'How to generate images?',
   'How to use Aquin Research?',
@@ -75,7 +75,7 @@ export const how = () => {
           title={title}
           description={description}
           url="https://aquin.app"
-          linkLabel="Try Aquin 2.2 Now"
+          linkLabel="Try Aquin 2.3 Now"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -95,9 +95,9 @@ export const how = () => {
         </ProjectSection>
         <ProjectSection>
           <ProjectTextRow>
-            <ProjectSectionHeading>Aquin 2.2 Application</ProjectSectionHeading>
+            <ProjectSectionHeading>Aquin 2.3 Application</ProjectSectionHeading>
             <ProjectSectionText>
-            Aquin 2.2 is a PWA and it works seamlessly across all browsers. Upon launching the application, youll be directly directed to the login page, offering multiple options, Google, X, and e-mail, for your registration. After successfully logging in, youll get the access to app and then you can start exploring its features.
+            Aquin 2.3 is a PWA and it works seamlessly across all browsers. Upon launching the application, youll be directly directed to the login page, offering multiple options, Google, X, and e-mail, for your registration. After successfully logging in, youll get the access to app and then you can start exploring its features.
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
