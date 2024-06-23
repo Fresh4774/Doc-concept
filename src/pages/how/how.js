@@ -1,7 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import backgroundSprLarge from 'assets/spr-background-large.jpg';
-import imageSprBackgroundVolcanismLarge from 'assets/spr-background-volcanism-large.jpg';
-import imageSprBackgroundVolcanism from 'assets/spr-background-volcanism.jpg';
 import backgroundSpr from 'assets/spr-background.jpg';
 import volkiharBackgroundLarge from 'assets/ex-large.png';
 import volkiharSlide1 from 'assets/ex.png';
@@ -106,8 +104,8 @@ export const how = () => {
             backgroundOverlayOpacity={0.5}
             backgroundElement={
               <Image
-                srcSet={[imageSprBackgroundVolcanism, imageSprBackgroundVolcanismLarge]}
-                alt="A dramatic Aquin scene with lava forming a new land mass."
+                srcSet={[backgroundSpr, backgroundSprLarge]}
+                alt="A beautilful vector art that contains triangle shapes with matte black and blue color"
                 sizes="100vw"
               />
             }
@@ -159,8 +157,8 @@ export const how = () => {
             backgroundOverlayOpacity={0.5}
             backgroundElement={
               <Image
-                srcSet={[imageSprBackgroundVolcanism, imageSprBackgroundVolcanismLarge]}
-                alt="A dramatic Aquin scene with lava forming a new land mass."
+                srcSet={[backgroundSpr, backgroundSprLarge]}
+                alt="A beautilful vector art that contains triangle shapes with matte black and blue color."
                 sizes="100vw"
               />
             }
@@ -245,8 +243,8 @@ export const how = () => {
             backgroundOverlayOpacity={0.5}
             backgroundElement={
               <Image
-                srcSet={[imageSprBackgroundVolcanism, imageSprBackgroundVolcanismLarge]}
-                alt="A dramatic Aquin scene with lava forming a new land mass."
+                srcSet={[backgroundSpr, backgroundSprLarge]}
+                alt="A beautilful vector art that contains triangle shapes with matte black and blue color."
                 sizes="100vw"
               />
             }

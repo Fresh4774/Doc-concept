@@ -1,9 +1,7 @@
-import volkiharBackgroundLarge from 'assets/volkihar-background-large.jpg';
-import volkiharBackground from 'assets/volkihar-background.jpg';
-import volkiharEnderalLarge from 'assets/volkihar-enderal-large.jpg';
+import backgroundSprLarge from 'assets/spr-background-large.jpg';
+import backgroundSpr from 'assets/spr-background.jpg';
 import volkiharEnderalLogoLarge from 'assets/volkihar-enderal-logo-large.png';
 import volkiharEnderalLogo from 'assets/volkihar-enderal-logo.png';
-import volkiharEnderal from 'assets/volkihar-enderal.jpg';
 import volkiharSlide1Large from 'assets/volkihar-slide-1-large.jpg';
 import volkiharSlide1 from 'assets/volkihar-slide-1.jpg';
 import volkiharSlide2Large from 'assets/volkihar-slide-2-large.jpg';
@@ -29,9 +27,9 @@ import { media } from 'utils/style';
 
 const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Carousel));
 
-const title = 'Aquin 2.3.1';
+const title = 'Aquin 2.4';
 const description =
-  'Team Aquin is working towards Aquin 2.3.1 with every atom they have!';
+  'Team Aquin is working towards Aquin 2.4 with every atom they have!';
 const roles = ['Something Really Cool', 'Something Really Insane', 'Something Really Dynamic'];
 
 export function Soon() {
@@ -53,7 +51,7 @@ export function Soon() {
       />
       <ProjectContainer>
         <ProjectBackground
-          srcSet={[volkiharBackground, volkiharBackgroundLarge]}
+          srcSet={[backgroundSpr, backgroundSprLarge]}
           opacity={0.5}
         />
         <ProjectHeader
@@ -91,7 +89,7 @@ export function Soon() {
         <ProjectSection
           backgroundElement={
             <Image
-              srcSet={[volkiharEnderal, volkiharEnderalLarge]}
+              srcSet={[backgroundSpr, backgroundSprLarge]}
               alt="Aquin"
               sizes={`100vw`}
             />
