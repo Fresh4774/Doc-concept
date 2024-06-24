@@ -25,7 +25,7 @@ export const New = () => {
         />
         <ProjectHeader
           title="Aquin 2.3"
-          description="Aquin 2.3, this update brings tons of new features and bug fixes and improvements, Team Aquin has dedicated each of their atoms into this update! Team Aquin is also working on patch updates before the next update!"
+          description="Aquin 2.3 will be released 24th may 2024, this update brings tons of new features and bug fixes and improvements, Team Aquin has dedicated each of their atoms into this update! Team Aquin is also working on patch updates before the next update!"
         />
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
