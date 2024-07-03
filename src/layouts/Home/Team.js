@@ -1,6 +1,4 @@
 import friction from 'assets/1.png';
-import speedy from 'assets/2.png';
-import paul from 'assets/3.png';
 import sam from 'assets/4.png';
 import { Image } from 'components/Image';
 import { Section } from 'components/Section';
@@ -38,20 +36,6 @@ export const Team = ({ id, sectionRef }) => {
           <div className={styles.image}>
             <Image
               srcSet={[friction, friction]}
-              sizes={`(max-width: 768px) 100vw, 480px`}
-              alt="Team Aquin"
-            />
-          </div>
-          <div className={styles.image}>
-            <Image
-              srcSet={[speedy, speedy]}
-              sizes={`(max-width: 768px) 100vw, 480px`}
-              alt="Team Aquin"
-            />
-          </div>
-          <div className={styles.image}>
-            <Image
-              srcSet={[paul, paul]}
               sizes={`(max-width: 768px) 100vw, 480px`}
               alt="Team Aquin"
             />
